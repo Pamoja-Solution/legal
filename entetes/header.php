@@ -14,9 +14,17 @@
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif; /* Définir la police comme police par défaut */
+}
+
+</style>
 
 </head>
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen py-12">
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen py-6">
     <script>
         tailwind.config = {
             theme: {
@@ -53,7 +61,7 @@
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
                     <a href="index.html" class="flex-shrink-0">
-                        <img class="h-16 w-auto" src="assets/img/logo/logo3.png" alt="Logo">
+                        <img class="h-16 w-auto rounded rounded-4" src="assets/img/logo/logo3.png" alt="Logo">
                     </a>
                 </div>
 

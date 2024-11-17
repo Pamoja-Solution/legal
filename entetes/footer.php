@@ -1,8 +1,56 @@
 
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Bouton Scroll-To-Top -->
+<button
+  id="scrollToTopBtn"
+  class="fixed bottom-6 right-6 bg-blue-500 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-opacity duration-300 hover:bg-blue-600"
+  onclick="scrollToTop()"
+  title="Retour en haut"
+>
+  <!-- Icône -->
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="2"
+    stroke="currentColor"
+    class="w-6 h-6"
+  >
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7-7m0 0l-7 7m7-7v18" />
+  </svg>
+</button>
 
-<footer class="bg-primary-dark text-white">
+<script>
+  // Obtenir le bouton
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+  // Fonction pour montrer ou cacher le bouton
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollToTopBtn.classList.remove("opacity-0", "invisible");
+      scrollToTopBtn.classList.add("opacity-100", "visible");
+    } else {
+      scrollToTopBtn.classList.remove("opacity-100", "visible");
+      scrollToTopBtn.classList.add("opacity-0", "invisible");
+    }
+  });
+
+  // Fonction pour défiler jusqu'au sommet
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+</script>
+
+
+
+
+
+<footer class="bg-primary-dark text-white mt-6">
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Section Contact -->
         <div>
