@@ -54,7 +54,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Section Contact -->
         <div>
-            <img class="h-16 mb-4" src="assets/img/logo/logo3.png" alt="Elite Law Firm Logo">
+            <img class="h-16 mb-4 rounded rounded-lg" src="assets/img/logo/logo3.jpeg" alt="Elite Law Firm Logo">
             <h2 class="text-accent font-semibold mb-2">Siège Principal:</h2>
             <p class="mb-1">195, Avenue Colonel Ebeya</p>
             <p class="mb-1">Immeuble La Référence, App. 302</p>
