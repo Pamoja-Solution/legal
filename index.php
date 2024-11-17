@@ -1,15 +1,6 @@
 <?php require("entetes/header.php") ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AEQUITAS LEGAL PARTNERS</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-</head>
-<body>
-<div x-data="carousel(5000)" class="relative w-full h-auto overflow-hidden">
+
+<div x-data="carousel(5000)" class="relative w-full h-screen overflow-hidden mt-6"> 
     <!-- Slides -->
     <div class="relative h-full">
         <template x-for="(slide, index) in slides" :key="index">
@@ -116,15 +107,116 @@
 </script>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Futuristes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .card-gradient {
+            background: linear-gradient(135deg, rgba(21, 57, 104, 0.95), rgba(44, 82, 130, 0.95));
+        }
+        .swiper {
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-12">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <div class="card-gradient rounded-2xl shadow-2xl p-6 backdrop-blur-sm text-white transform hover:scale-105 transition-all duration-300">
+                        <div class="flex flex-col h-full">
+                            <h2 class="text-3xl font-bold mb-6">L'ÉQUITÉ AU CŒUR DU DROIT</h2>
+                            <p class="text-gray-200 mb-6">Vous cherchez des solutions juridiques intelligentes et durables pour la gestion de vos activités professionnelles ?</p>
+                            <p class="text-gray-200 mb-8">Nous vous offrons des services adaptés à vos besoins, marqués par un profond sens de l'équilibre et de la justice.</p>
+                            <button class="mt-auto bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transform hover:translate-y-[-2px] transition-all duration-300">
+                                EN SAVOIR PLUS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="swiper-slide">
+                    <div class="card-gradient rounded-2xl shadow-2xl p-6 backdrop-blur-sm text-white transform hover:scale-105 transition-all duration-300">
+                        <div class="flex flex-col h-full">
+                            <h2 class="text-3xl font-bold mb-6">EXPERTISE JURIDIQUE</h2>
+                            <p class="text-gray-200 mb-6">Une équipe d'experts dédiée à la protection de vos intérêts et au succès de vos projets.</p>
+                            <p class="text-gray-200 mb-8">Solutions sur mesure pour répondre à vos besoins spécifiques.</p>
+                            <button class="mt-auto bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transform hover:translate-y-[-2px] transition-all duration-300">
+                                DÉCOUVRIR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="swiper-slide">
+                    <div class="card-gradient rounded-2xl shadow-2xl p-6 backdrop-blur-sm text-white transform hover:scale-105 transition-all duration-300">
+                        <div class="flex flex-col h-full">
+                            <h2 class="text-3xl font-bold mb-6">ACCOMPAGNEMENT PERSONNALISÉ</h2>
+                            <p class="text-gray-200 mb-6">Un suivi rigoureux et personnalisé pour chacun de vos dossiers.</p>
+                            <p class="text-gray-200 mb-8">Excellence et professionnalisme au service de votre réussite.</p>
+                            <button class="mt-auto bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transform hover:translate-y-[-2px] transition-all duration-300">
+                                NOUS CONTACTER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
 </body>
 </html>
-<main style="width: 100%; height: 900px; padding:300px">
-    locale_accept_from_http
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nihil vero veniam error, dicta quae sequi esse molestiae totam assumenda ea, maxime consectetur accusamus. Praesentium omnis eaque dignissimos iure modi!
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima sequi blanditiis magnam, reiciendis quibusdam optio quidem corporis quam nemo officia debitis natus mollitia voluptatibus, quas, autem quo officiis est at!
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi magnam officiis modi consequatur nulla maiores explicabo provident neque dignissimos inventore id alias assumenda cumque sit culpa, quo distinctio eaque eveniet.
-
-</main>
-
-
 <?php require("entetes/footer.php") ?>

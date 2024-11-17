@@ -7,7 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
+</head>
+<body>
     <script>
         tailwind.config = {
             theme: {
@@ -39,7 +46,7 @@
     </style>
 </head>
 <body>
-    <nav class="nav-gradient fixed w-full top-0 z-50 shadow-lg">
+    <nav class="nav-gradient fixed w-full top-0 z-50 shadow-lg mb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
