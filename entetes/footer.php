@@ -82,13 +82,13 @@
         <div>
             <h3 class="text-accent font-semibold mb-4">A PROPOS</h3>
             <ul class="space-y-2">
-                <li><a href="#" class="hover:text-accent-light">Qui Sommes-Nous?</a></li>
-                <li><a href="#" class="hover:text-accent-light">Notre vision</a></li>
-                <li><a href="#" class="hover:text-accent-light">Localisation</a></li>
-                <li><a href="#" class="hover:text-accent-light">Organisation</a></li>
-                <li><a href="#" class="hover:text-accent-light">Equipe</a></li>
-                <li><a href="#" class="hover:text-accent-light">Notre portefeuille</a></li>
-                <li><a href="#" class="hover:text-accent-light">Partenariats professionnels</a></li>
+                <li><a href="apropos.php#yan1" class="hover:text-accent-light">Qui Sommes-Nous?</a></li>
+                <li><a href="apropos.php#vision" class="hover:text-accent-light">Notre vision</a></li>
+                <li><a href="apropos.php#contact" class="hover:text-accent-light">Localisation</a></li>
+                <li><a href="apropos.php#organisation" class="hover:text-accent-light">Organisation</a></li>
+                <li><a href="index.php#expert" class="hover:text-accent-light">Equipe</a></li>
+                <li><a href="apropos.php#portefeuille" class="hover:text-accent-light">Notre portefeuille</a></li>
+                <li><a href="apropos.php#partenariat" class="hover:text-accent-light">Partenariats professionnels</a></li>
             </ul>
             <h3 class="text-accent font-semibold mt-6 mb-2">Nous suivre:</h3>
             <div class="flex space-x-4">
