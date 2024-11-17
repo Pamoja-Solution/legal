@@ -61,7 +61,7 @@ body {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
-                    <a href="index.html" class="flex-shrink-0">
+                    <a href="index.php" class="flex-shrink-0">
                         <img class="h-16 w-auto rounded rounded-xl" src="assets/img/logo/logo3.jpeg" alt="Logo">
 
                     </a>
@@ -139,17 +139,16 @@ body {
                                 <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Contentieux</a>
                                 <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Fiscalité</a>
                                 <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Divers</a>
-
                                 <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#"  onclick="showSection('Conseil')">Règlement des différends</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#"  onclick="showSection('Contentieux')">Droit des affaires</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Fiscalite')">Droit et gouvernance des ressources naturelles</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers')">Protection du patrimoine</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers1')">Finance, banque et assurances</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers2')">Immigration et coopération internationale</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers3')">Droit de la famille et des personnes</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers4')">Emploi et protection sociale</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers5')">Fiscalité</a>
-                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers6')">Droits humains et libertés fondamentales</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#"  onclick="showSection('Contentieux')">Droit des affaires</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Fiscalite')">Droit et gouvernance des ressources naturelles</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers')">Protection du patrimoine</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers1')">Finance, banque et assurances</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers2')">Immigration et coopération internationale</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers3')">Droit de la famille et des personnes</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers4')">Emploi et protection sociale</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers5')">Fiscalité</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers6')">Droits humains et libertés fondamentales</a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +203,7 @@ body {
         <!-- Menu mobile -->
         <div id="mobile-menu" class="hidden md:hidden bg-primary-dark">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="index.html" class="block px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200">ACCUEIL</a>
+                <a href="index.php" class="block px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200">ACCUEIL</a>
                 
                 <div class="mobile-dropdown">
                     <button class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
@@ -212,33 +211,98 @@ body {
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="hidden bg-primary-light rounded-md mt-1">
-                        <a href="#yan1" class="block py-2 px-4 text-white hover:bg-primary">Qui sommes-nous</a>
-                        <a href="#yan2" class="block py-2 px-4 text-white hover:bg-primary">Notre vision</a>
-                        <a href="#yan3" class="block py-2 px-4 text-white hover:bg-primary">Localisation</a>
-                        <a href="#yan4" class="block py-2 px-4 text-white hover:bg-primary">Organisation</a>
-                        <a href="#yan5" class="block py-2 px-4 text-white hover:bg-primary">Equipe</a>
-                        <a href="#yan7" class="block py-2 px-4 text-white hover:bg-primary">Notre portefeuille</a>
-                        <a href="#yan8" class="block py-2 px-4 text-white hover:bg-primary">Partenariats professionnels</a>
+                        <a href="apropos.php#yan1" class="block py-2 px-4 text-white hover:bg-primary">Qui sommes-nous</a>
+                        <a href="apropos.php#vision"  class="block py-2 px-4 text-white hover:bg-primary">Notre vision</a>
+                        <a href="apropos.php#contact"  class="block py-2 px-4 text-white hover:bg-primary">Localisation</a>
+                        <a href="apropos.php#organisation" class="block py-2 px-4 text-white hover:bg-primary">Organisation</a>
+                        <a href="index.php#expert"  class="block py-2 px-4 text-white hover:bg-primary">Equipe</a>
+                        <a href="apropos.php#portefeuille" class="block py-2 px-4 text-white hover:bg-primary">Notre portefeuille</a>
+                        <a href="apropos.php#partenariat"  class="block py-2 px-4 text-white hover:bg-primary">Partenariats professionnels</a>
                     </div>
                 </div>
 
 
 
                         <div class="mobile-dropdown">
-                        <!-- Bouton principal pour les services -->
-                        <a href="/services.php" class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
-                            SERVICES
+                            <!-- Bouton principal pour les services -->
+                            <a href="/services.php" class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
+                                SERVICES
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <!-- Menu déroulant -->
+                            <div class="hidden bg-primary-light rounded-md mt-1">
+                                <!-- Sous-sections avec ancres -->
+                                <a href="/services.php#Conseil" class="block py-2 px-4 text-white hover:bg-primary">Conseil</a>
+                                <a href="/services.php#Contentieux" class="block py-2 px-4 text-white hover:bg-primary">Contentieux</a>
+                                <a href="/services.php#Fiscalite" class="block py-2 px-4 text-white hover:bg-primary">Fiscalité</a>
+                                <a href="/services.php#Divers" class="block py-2 px-4 text-white hover:bg-primary">Divers</a>
+                            </div>
+                        </div>
+
+
+                    
+
+
+
+                      
+
+                    <div class="mobile-dropdown" id="dropdown-domains">
+                        <a 
+                            id="dropdown-toggle" 
+                            class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
+                            NOS DOMAINES
                             <i class="fas fa-chevron-down"></i>
                         </a>
-                        <!-- Menu déroulant -->
-                        <div class="hidden bg-primary-light rounded-md mt-1">
-                            <!-- Sous-sections avec ancres -->
-                            <a href="/services.php#Conseil" class="block py-2 px-4 text-white hover:bg-primary">Conseil</a>
-                            <a href="/services.php#Contentieux" class="block py-2 px-4 text-white hover:bg-primary">Contentieux</a>
-                            <a href="/services.php#Fiscalite" class="block py-2 px-4 text-white hover:bg-primary">Fiscalité</a>
-                            <a href="/services.php#Divers" class="block py-2 px-4 text-white hover:bg-primary">Divers</a>
+                        <div id="dropdown-content" class="hidden bg-primary-light rounded-md mt-1">
+                            <a href="#" class="block py-1  text-sm px-2 text-white hover:bg-primary">Conseil</a>
+                            <a href="#" class="block py-1 text-sm px-2 text-white hover:bg-primary">Contentieux</a>
+                            <a href="#" class="block py-1 text-sm px-2 text-white hover:bg-primary">Fiscalité</a>
+                            <a href="#" class="block py-1 text-sm px-2 text-white hover:bg-primary">Divers</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#"  >Règlement des différends</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droit des affaires</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droit et gouvernance </a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Protection du patrimoine</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Finance, banque </a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Immigration </a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droit de la famille</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Emploi</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Fiscalité</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droits humains </a>
                         </div>
                     </div>
+
+
+<script>
+
+// Gestion des dropdowns spécifiques
+const dropdownToggle = document.getElementById('dropdown-toggle');
+const dropdownContent = document.getElementById('dropdown-content');
+
+// Toggle affichage du dropdown
+dropdownToggle.addEventListener('click', (e) => {
+    e.preventDefault(); // Empêche le scroll vers le haut
+    dropdownContent.classList.toggle('hidden');
+    
+    // Gérer l'icône de chevron
+    const icon = dropdownToggle.querySelector('i');
+    icon.classList.toggle('fa-chevron-up');
+    icon.classList.toggle('fa-chevron-down');
+});
+
+// Fermer le dropdown si clic en dehors
+document.addEventListener('click', (e) => {
+    if (!document.getElementById('dropdown-domains').contains(e.target)) {
+        dropdownContent.classList.add('hidden');
+        const icon = dropdownToggle.querySelector('i');
+        icon.classList.add('fa-chevron-down');
+        icon.classList.remove('fa-chevron-up');
+    }
+});
+
+</script>
+
+
+
 
 
 
