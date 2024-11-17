@@ -347,6 +347,135 @@ function carousel(intervalTime) {
     }
 }
 </style>
+<div class="h-1 bg-blue-500 my-6"></div>
+
+
+<section class=" py-20 px-4" x-data="{ activeTab: 'assurance' }">
+    <div class="container mx-auto">
+        <!-- En-tête -->
+        <div class="mb-12">
+            <span class="text-stone-400 uppercase tracking-wider text-sm">Expertise Acquise</span>
+            <h2 class="text-white text-4xl md:text-5xl font-light mt-3 mb-6">
+                Fort de son expérience<br>de plusieurs années.
+            </h2>
+        </div>
+
+        <!-- Contenu principal -->
+        <div class="grid lg:grid-cols-2 gap-8">
+            <!-- Liste des domaines -->
+            <div class="space-y-4">
+                <button 
+                    @click="activeTab = 'assurance'" 
+                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
+                    :class="activeTab === 'assurance' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
+                    <span class="text-xl" :class="activeTab === 'assurance' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
+                        Droit des assurances et droit bancaire
+                    </span>
+                </button>
+                
+                <button 
+                    @click="activeTab = 'foncier'" 
+                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
+                    :class="activeTab === 'foncier' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
+                    <span class="text-xl" :class="activeTab === 'foncier' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
+                        Droit foncier et droit de l'environnement
+                    </span>
+                </button>
+                
+                <button 
+                    @click="activeTab = 'sport'" 
+                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
+                    :class="activeTab === 'sport' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
+                    <span class="text-xl" :class="activeTab === 'sport' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
+                        Droit des loisirs et droit de Sport
+                    </span>
+                </button>
+                
+                <button 
+                    @click="activeTab = 'commerce'" 
+                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
+                    :class="activeTab === 'commerce' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
+                    <span class="text-xl" :class="activeTab === 'commerce' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
+                        Droit de commerce international
+                    </span>
+                </button>
+            </div>
+
+            <!-- Carte d'information -->
+            <div class="relative">
+                <!-- Contenu Assurance -->
+                <div x-show="activeTab === 'assurance'" 
+                     x-transition:enter="transition ease-out duration-300"
+                     x-transition:enter-start="opacity-0 transform translate-y-4"
+                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
+                    <h3 class="text-white text-2xl mb-4">Droit des assurances et droit bancaire</h3>
+                    <p class="text-stone-300 leading-relaxed">
+                    DBZ-CONSEIL SCA intervient de manière experte en droit des assurances, en offrant un accompagnement stratégique sur la conformité des sociétés d'assurances ainsi que des assurés vis-à-vis des réglementations en vigueur en République Démocratique du Congo, en veillant à garantir la conformité légale, la protection des droits des assurés, et la gestion des risques dans le respect des normes et des obligations légales locales.                    </p>
+                    <div class="absolute top-4 right-4 w-32 h-32 ">
+                        <i class="fas fa-landmark text-6xl text-gray-100"  ></i>
+                    </div>
+                </div>
+
+                <!-- Contenu Foncier -->
+                <div x-show="activeTab === 'foncier'"
+                     x-transition:enter="transition ease-out duration-300"
+                     x-transition:enter-start="opacity-0 transform translate-y-4"
+                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
+                    <h3 class="text-white text-2xl mb-4">Droit foncier et droit de l'environnement</h3>
+                    <p class="text-stone-300 leading-relaxed">
+                    Expertise approfondie en droit foncier et en droit de l'environnement, avec un accompagnement complet dans les procédures administratives, la gestion des risques juridiques liés à l'immobilier, ainsi que la conformité stricte aux normes environnementales nationales et internationales, garantissant une gestion durable des ressources et un respect total des réglementations en vigueur.
+                    </p>
+                    <div class="absolute top-4 right-4 w-32 h-32 ">
+                        <i class="fas fa-tree text-6xl text-gray-100"></i>
+                    </div>
+                </div>
+
+                <!-- Contenu Sport -->
+                <div x-show="activeTab === 'sport'"
+                     x-transition:enter="transition ease-out duration-300"
+                     x-transition:enter-start="opacity-0 transform translate-y-4"
+                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
+                    <h3 class="text-white text-2xl mb-4">Droit des loisirs et droit de Sport</h3>
+                    <p class="text-stone-300 leading-relaxed">
+                    Accompagnement juridique spécialisé des organisations sportives, incluant la gestion des contrats sportifs, la négociation des accords de partenariat, ainsi que le conseil stratégique en matière de réglementation sportive, de conformité aux normes nationales et internationales, et de gestion des risques juridiques liés aux activités sportives, afin de garantir la pérennité et la conformité des structures sportives.                    </p>
+                    <div class="absolute top-4 right-4 w-32 h-32">
+                        <i class="fas fa-running text-6xl text-gray-100"></i>
+                    </div>
+                </div>
+
+                <!-- Contenu Commerce -->
+                <div x-show="activeTab === 'commerce'"
+                     x-transition:enter="transition ease-out duration-300"
+                     x-transition:enter-start="opacity-0 transform translate-y-4"
+                     x-transition:enter-end="opacity-100 transform translate-y-0"
+                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
+                    <h3 class="text-white text-2xl mb-4">Droit de commerce international</h3>
+                    <p class="text-stone-300 leading-relaxed">
+                    Expertise approfondie en transactions internationales, couvrant la négociation de contrats commerciaux complexes, l'élaboration de stratégies de structuration de deals, ainsi que la résolution efficace des litiges commerciaux internationaux, en assurant la protection des intérêts de nos clients dans le cadre de la législation internationale, la médiation entre parties et l'arbitrage pour garantir des solutions rapides et adaptées.
+                    </p>
+                    <div class="absolute top-4 right-4 w-32 h-32 ">
+                        <i class="fas fa-globe text-6xl  text-gray-100"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.expertise-btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.expertise-btn:hover {
+    transform: translateX(8px);
+}
+</style>
+
+
 
 
 
@@ -364,8 +493,7 @@ function carousel(intervalTime) {
             height: auto;
         }
     </style>
-    <body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen py-12">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4" id="expert">
         <h1 class="text-4xl font-bold text-white mb-12 flex items-center gap-4">
             <span>Nos</span>
             <span class="text-orange-500">Experts</span>
