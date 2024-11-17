@@ -1,4 +1,7 @@
-<?php $titre = "Accueil";?>
+<?php
+// Définir une constante pour la racine
+define('BASE_URL', '/');
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <link rel="shortcut icon" href="assets/img/logo3.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=  BASE_URL; ?>assets/img/logo3.ico" type="image/x-icon">
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -61,14 +64,14 @@ body {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
-                    <a href="index.php" class="flex-shrink-0">
-                        <img class="h-16 w-auto rounded rounded-xl" src="assets/img/logo/logo3.jpeg" alt="Logo">
+                    <a href="<?= BASE_URL ?>index.php" class="flex-shrink-0">
+                    <img class="h-16 w-auto rounded rounded-xl" src="<?php echo BASE_URL; ?>assets/img/logo/logo3.jpeg" alt="Logo">
 
                     </a>
                 </div>
 
                 <div class="hidden md:flex md:items-center md:space-x-8">
-                    <a href="index.php" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
+                    <a href="<?= BASE_URL ?>index.php" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
                         ACCUEIL
                     </a>
 
