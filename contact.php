@@ -254,45 +254,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Footer -->
-        <footer class="bg-gray-800 text-white py-12">
-            <div class="container mx-auto px-4">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div>
-                        <h4 class="text-xl font-bold mb-4">À propos</h4>
-                        <p class="text-gray-400">Aequilex Partners, votre cabinet juridique de confiance en République Démocratique du Congo.</p>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-bold mb-4">Liens rapides</h4>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-400 hover:text-white transition">Accueil</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white transition">Services</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-bold mb-4">Contact</h4>
-                        <ul class="space-y-2 text-gray-400">
-                            <li>123 Avenue Colonel Ebeya</li>
-                            <li>Kinshasa, RDC</li>
-                            <li>+243 00 000 00 00</li>
-                            <li>contact@aequilex.com</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-bold mb-4">Newsletter</h4>
-                        <form class="space-y-4">
-                            <input type="email" placeholder="Votre email" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500">
-                            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">S'abonner</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                    <p>&copy; 2024 Aequilex Partners. Tous droits réservés.</p>
-                </div>
-            </div>
-        </footer>
     </main>
 
     <script>

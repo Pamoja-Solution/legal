@@ -1,5 +1,4 @@
 <?php require("entetes/header.php") ?>
-
 <div x-data="carousel(5000)" class="relative w-full h-screen overflow-hidden mt-6">
     <!-- Slides -->
     <div class="relative h-full">
@@ -104,17 +103,17 @@ function carousel(intervalTime) {
     return {
         slides: [
             {
-                image: 'assets/img/gallery/yan profil.png',
+                image: 'assets/img/caroussel/caroussel1.jpeg',
                 title: "Excellence Juridique",
                 text: "AEQUITAS LEGAL PARTNERS vous accompagne avec expertise et passion dans tous vos projets juridiques."
             },
             {
-                image: 'assets/img/gallery/brand2.png',
+                image: 'assets/img/caroussel/caroussel2.jpeg',
                 title: "Solutions Innovantes",
                 text: "Notre équipe d'experts développe des stratégies personnalisées pour répondre à vos besoins spécifiques."
             },
             {
-                image: 'assets/img/gallery/brand3.png',
+                image: 'assets/img/caroussel/caroussel3.jpeg',
                 title: "20 Ans d'Expérience",
                 text: "Une expertise reconnue et une approche moderne du droit au service de votre réussite."
             }
@@ -188,15 +187,6 @@ function carousel(intervalTime) {
 
 
 
-
-
-
-
-
-
-
-
-
 <section class="py-16 px-4 ">
     <h2 class="text-center text-gray-300 text-4xl mb-16">
         <span class="text-slate-300">Principaux</span>
@@ -209,7 +199,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700  rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/mine.webp" alt="Mines" 
+                    <img src="assets/img/gallery/home_blog1.png" alt="Mines" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -219,7 +209,7 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-4 pt-10 text-center">
+                <div class="p-6 pt-16 text-center">
                     <h3 class="text-xl font-bold mb-3">
                         <span class="text-slate-300">Mines &</span>
                         <span class="text-blue-600">Ressources</span>
@@ -237,7 +227,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/Agriculture-industrie.jpg" alt="Commerce" 
+                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -247,7 +237,7 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-4 pt-10 text-center">
+                <div class="p-6 pt-16 text-center">
                     <h3 class="text-xl font-bold mb-3">
                         <span class="text-slate-300">Commerce &</span>
                         <span class="text-blue-600">Industrie</span>
@@ -268,7 +258,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/energie-Infrastructure.png" alt="Commerce" 
+                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -278,7 +268,7 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-4 pt-10 text-center">
+                <div class="p-6 pt-16 text-center">
                     <h3 class="text-xl font-bold mb-3">
                         <span class="text-slate-300">Énergie &</span>
                         <span class="text-blue-600"> Infrastructure</span>
@@ -298,7 +288,7 @@ function carousel(intervalTime) {
          <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/banque.jpg" alt="Commerce" 
+                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -308,16 +298,13 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-4 pt-10 text-center">
+                <div class="p-6 pt-16 text-center">
                     <h3 class="text-xl font-bold mb-3">
-                        <span class="text-slate-300"> Banque</span>
-                        <span class="text-blue-600"> Finance & Assurances</span>
+                        <span class="text-slate-300">Commerce &</span>
+                        <span class="text-blue-600"> Industrie</span>
                     </h3>
                     <div class="text-slate-200 overflow-hidden transition-all duration-300 ease-in-out">
-                        <p>
-                        
-                        Nos avocats offrent une expertise de pointe dans les secteurs du droit bancaire, de la finance, des assurances et du change, en fournissant une gamme complète de services juridiques sur mesure. 
-                        </p>
+                        <p>Nous assistons nos clients en droit général des affaire, du travail, la sécurité sociale, la propriété intellectuelle, la fiscalité, les contrats, l'évaluation juridique et les marchés publics.</p>
                     </div>
                 </div>
 
@@ -330,36 +317,40 @@ function carousel(intervalTime) {
 </section>
 
 <style>
-        .card-wrapper {
-            transform-style: preserve-3d;
-            backface-visibility: hidden;
-        }
+.card-wrapper {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
 
-        .card-wrapper > div {
-            will-change: transform;
-            transform-origin: center center;
-        }
+.card-wrapper > div {
+    will-change: transform;
+    transform-origin: center center;
+}
 
-        .card-wrapper:hover > div {
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
+.card-wrapper:hover > div {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
 
-        /* Optimisation des performances */
-        .card-wrapper > div {
-            -webkit-backface-visibility: hidden;
-            -moz-backface-visibility: hidden;
-            -webkit-transform: translate3d(0, 0, 0);
-            -moz-transform: translate3d(0, 0, 0);
-        }
+/* Optimisation des performances */
+.card-wrapper > div {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+}
 
-        /* Animation douce pour l'élévation */
-        @media (prefers-reduced-motion: no-preference) {
-            .card-wrapper > div {
-                transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-                            box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            }
-        }
+/* Animation douce pour l'élévation */
+@media (prefers-reduced-motion: no-preference) {
+    .card-wrapper > div {
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
 </style>
+
+
+
+
 
 
 
@@ -373,120 +364,8 @@ function carousel(intervalTime) {
             height: auto;
         }
     </style>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="bg-gray-600 py-12">
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center text-gray-100 mb-8">Les Actualités</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Card 1 -->
-      <div class="relative bg-white rounded-lg shadow-md overflow-hidden">
-        <!-- Bannière "À la Une" -->
-        <div class="absolute top-0 left-0 bg-red-500 text-white text-xs font-bold uppercase px-4 py-1 rounded-br-lg">
-          À la Une
-        </div>
-        <div class="group">
-          <img
-            src="assets/img/gallery/mako1.png"
-            alt="Actualité 1"
-            class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-        </div>
-        <div class="p-6">
-          <div class="text-sm text-gray-600 mb-2">By Aequitas · Novembre 24, 2024</div>
-          <h3 class="text-xl font-semibold text-gray-800 mb-4">
-            Le procès de l'Afrique
-          </h3>
-          <p class="text-gray-600 mb-4">
-            Les procès fictifs constituent une excellente occasion pour nos avocats de pratiquer leur art oratoire et de contribuer à la...
-          </p>
-          <a
-            href="#"
-            class="text-indigo-500 hover:text-indigo-700 font-semibold"
-          >
-            Lire la Suite →
-          </a>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="relative bg-white rounded-lg shadow-md overflow-hidden">
-        <div class="group">
-          <img
-            src="assets/img/gallery/mako2.png"
-            alt="Actualité 2"
-            class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-        </div>
-        <div class="p-6">
-          <div class="text-sm text-gray-600 mb-2">By Aequitas · Novembre 14, 2024</div>
-          <h3 class="text-xl font-semibold text-gray-800 mb-4">
-            Remise des Prix
-          </h3>
-          <p class="text-gray-600 mb-4">
-            Notre Cabinet reçoit le Prix d'Excellence Christophe Guillaume attribué par le chapitre Saint Thomas (Strasbourg) pour la...
-          </p>
-          <a
-            href="#"
-            class="text-indigo-500 hover:text-indigo-700 font-semibold"
-          >
-            Lire la Suite →
-          </a>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="relative bg-white rounded-lg shadow-md overflow-hidden">
-        <div class="group">
-          <img
-            src="assets/img/gallery/jo.png"
-            alt="Actualité 3"
-            class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-        </div>
-        <div class="p-6">
-          <div class="text-sm text-gray-600 mb-2">By Aequitas · Novembre 10, 2024</div>
-          <h3 class="text-xl font-semibold text-gray-800 mb-4">
-            Une nouvelle initiative
-          </h3>
-          <p class="text-gray-600 mb-4">
-            Découvrez comment notre cabinet s'engage dans des initiatives innovantes pour promouvoir l'accès à la justice en Afrique...
-          </p>
-          <a
-            href="#"
-            class="text-indigo-500 hover:text-indigo-700 font-semibold"
-          >
-            Lire la Suite →
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container mx-auto px-4 mt-6" id="expert">
+    <body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen py-12">
+    <div class="container mx-auto px-4">
         <h1 class="text-4xl font-bold text-white mb-12 flex items-center gap-4">
             <span>Nos</span>
             <span class="text-orange-500">Experts</span>
@@ -522,7 +401,7 @@ function carousel(intervalTime) {
 
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/yan 7.jpg" alt="Edmond Cibamba Diata" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/yan profil.png" alt="Edmond Cibamba Diata" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Edmond Cibamba Diata</h3>
@@ -815,134 +694,5 @@ function carousel(intervalTime) {
             speed: 1000,
         });
     </script>
-
-
-
-<section class=" py-20 px-4" x-data="{ activeTab: 'assurance' }">
-    <div class="container mx-auto">
-        <!-- En-tête -->
-        <div class="mb-12">
-            <span class="text-stone-400 uppercase tracking-wider text-sm">Expertise Acquise</span>
-            <h2 class="text-white text-4xl md:text-5xl font-light mt-3 mb-6">
-                Fort de son expérience<br>de plusieurs années.
-            </h2>
-        </div>
-
-        <!-- Contenu principal -->
-        <div class="grid lg:grid-cols-2 gap-8">
-            <!-- Liste des domaines -->
-            <div class="space-y-4">
-                <button 
-                    @click="activeTab = 'assurance'" 
-                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
-                    :class="activeTab === 'assurance' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
-                    <span class="text-xl" :class="activeTab === 'assurance' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
-                        Droit des assurances et droit bancaire
-                    </span>
-                </button>
-                
-                <button 
-                    @click="activeTab = 'foncier'" 
-                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
-                    :class="activeTab === 'foncier' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
-                    <span class="text-xl" :class="activeTab === 'foncier' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
-                        Droit foncier et droit de l'environnement
-                    </span>
-                </button>
-                
-                <button 
-                    @click="activeTab = 'sport'" 
-                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
-                    :class="activeTab === 'sport' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
-                    <span class="text-xl" :class="activeTab === 'sport' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
-                        Droit des loisirs et droit de Sport
-                    </span>
-                </button>
-                
-                <button 
-                    @click="activeTab = 'commerce'" 
-                    class="expertise-btn group w-full text-left p-4 border-l-4 transition-all duration-300"
-                    :class="activeTab === 'commerce' ? 'border-blue-500 bg-stone-800/50' : 'border-transparent hover:border-blue-500 hover:bg-stone-800/50'">
-                    <span class="text-xl" :class="activeTab === 'commerce' ? 'text-white' : 'text-stone-400 group-hover:text-white'">
-                        Droit de commerce international
-                    </span>
-                </button>
-            </div>
-
-            <!-- Carte d'information -->
-            <div class="relative">
-                <!-- Contenu Assurance -->
-                <div x-show="activeTab === 'assurance'" 
-                     x-transition:enter="transition ease-out duration-300"
-                     x-transition:enter-start="opacity-0 transform translate-y-4"
-                     x-transition:enter-end="opacity-100 transform translate-y-0"
-                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
-                    <h3 class="text-white text-2xl mb-4">Droit des assurances et droit bancaire</h3>
-                    <p class="text-stone-300 leading-relaxed">
-                    DBZ-CONSEIL SCA intervient de manière experte en droit des assurances, en offrant un accompagnement stratégique sur la conformité des sociétés d'assurances ainsi que des assurés vis-à-vis des réglementations en vigueur en République Démocratique du Congo, en veillant à garantir la conformité légale, la protection des droits des assurés, et la gestion des risques dans le respect des normes et des obligations légales locales.                    </p>
-                    <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
-                        <i class="fas fa-landmark text-6xl text-blue-500"></i>
-                    </div>
-                </div>
-
-                <!-- Contenu Foncier -->
-                <div x-show="activeTab === 'foncier'"
-                     x-transition:enter="transition ease-out duration-300"
-                     x-transition:enter-start="opacity-0 transform translate-y-4"
-                     x-transition:enter-end="opacity-100 transform translate-y-0"
-                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
-                    <h3 class="text-white text-2xl mb-4">Droit foncier et droit de l'environnement</h3>
-                    <p class="text-stone-300 leading-relaxed">
-                    Expertise approfondie en droit foncier et en droit de l'environnement, avec un accompagnement complet dans les procédures administratives, la gestion des risques juridiques liés à l'immobilier, ainsi que la conformité stricte aux normes environnementales nationales et internationales, garantissant une gestion durable des ressources et un respect total des réglementations en vigueur.
-                    </p>
-                    <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
-                        <i class="fas fa-tree text-6xl text-blue-500"></i>
-                    </div>
-                </div>
-
-                <!-- Contenu Sport -->
-                <div x-show="activeTab === 'sport'"
-                     x-transition:enter="transition ease-out duration-300"
-                     x-transition:enter-start="opacity-0 transform translate-y-4"
-                     x-transition:enter-end="opacity-100 transform translate-y-0"
-                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
-                    <h3 class="text-white text-2xl mb-4">Droit des loisirs et droit de Sport</h3>
-                    <p class="text-stone-300 leading-relaxed">
-                    Accompagnement juridique spécialisé des organisations sportives, incluant la gestion des contrats sportifs, la négociation des accords de partenariat, ainsi que le conseil stratégique en matière de réglementation sportive, de conformité aux normes nationales et internationales, et de gestion des risques juridiques liés aux activités sportives, afin de garantir la pérennité et la conformité des structures sportives.                    </p>
-                    <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
-                        <i class="fas fa-running text-6xl text-blue-500"></i>
-                    </div>
-                </div>
-
-                <!-- Contenu Commerce -->
-                <div x-show="activeTab === 'commerce'"
-                     x-transition:enter="transition ease-out duration-300"
-                     x-transition:enter-start="opacity-0 transform translate-y-4"
-                     x-transition:enter-end="opacity-100 transform translate-y-0"
-                     class="bg-gray-700 p-8 rounded-lg shadow-xl">
-                    <h3 class="text-white text-2xl mb-4">Droit de commerce international</h3>
-                    <p class="text-stone-300 leading-relaxed">
-                    Expertise approfondie en transactions internationales, couvrant la négociation de contrats commerciaux complexes, l'élaboration de stratégies de structuration de deals, ainsi que la résolution efficace des litiges commerciaux internationaux, en assurant la protection des intérêts de nos clients dans le cadre de la législation internationale, la médiation entre parties et l'arbitrage pour garantir des solutions rapides et adaptées.
-                    </p>
-                    <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
-                        <i class="fas fa-globe text-6xl text-blue-500"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<style>
-.expertise-btn {
-    transition: all 0.3s ease-in-out;
-}
-
-.expertise-btn:hover {
-    transform: translateX(8px);
-}
-</style>
-
-
 
 <?php require("entetes/footer.php") ?>
