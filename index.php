@@ -493,6 +493,9 @@ function carousel(intervalTime) {
             height: auto;
         }
     </style>
+
+<div class="h-3 bg-blue-500 my-6"></div>
+
     <div class="container mx-auto px-4" id="expert">
         <h1 class="text-4xl font-bold text-white mb-12 flex items-center gap-4">
             <span>Nos</span>
