@@ -1,9 +1,10 @@
+<?php $titre = "Accueil";?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php if(isset($titre)){echo ($titre);}else{echo("Aequitas Legal Partners");} ?></title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -77,13 +78,13 @@ body {
                         </button>
                         <div x-show="open" @click.away="open = false" class="absolute left-0 w-56 mt-2 bg-white rounded-lg shadow-xl border border-gray-100 dropdown-gradient">
                             <div class="py-1">
-                                <a href="#yan1" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Qui sommes-nous</a>
-                                <a href="#yan2" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Notre vision</a>
-                                <a href="#yan3" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Localisation</a>
-                                <a href="#yan4" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Organisation</a>
-                                <a href="#yan5" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Equipe</a>
-                                <a href="#yan7" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Notre portefeuille</a>
-                                <a href="#yan8" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Partenariats professionnels</a>
+                                <a href="apropos.php#yan1" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Qui sommes-nous</a>
+                                <a href="apropos.php#vision" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Notre vision</a>
+                                <a href="apropos.php#contact" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Localisation</a>
+                                <a href="apropos.php#organisation" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Organisation</a>
+                                <a href="index.php#expert" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Equipe</a>
+                                <a href="apropos.php#portefeuille" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Notre portefeuille</a>
+                                <a href="apropos.php#partenariat" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Partenariats professionnels</a>
                             </div>
                         </div>
                     </div>

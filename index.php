@@ -1,4 +1,5 @@
 <?php require("entetes/header.php") ?>
+
 <div x-data="carousel(5000)" class="relative w-full h-screen overflow-hidden mt-6">
     <!-- Slides -->
     <div class="relative h-full">
@@ -103,7 +104,7 @@ function carousel(intervalTime) {
     return {
         slides: [
             {
-                image: 'assets/img/gallery/brand1.png',
+                image: 'assets/img/gallery/yan profil.png',
                 title: "Excellence Juridique",
                 text: "AEQUITAS LEGAL PARTNERS vous accompagne avec expertise et passion dans tous vos projets juridiques."
             },
@@ -208,7 +209,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700  rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Mines" 
+                    <img src="assets/img/mine.webp" alt="Mines" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -218,7 +219,7 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-6 pt-16 text-center">
+                <div class="p-4 pt-10 text-center">
                     <h3 class="text-xl font-bold mb-3">
                         <span class="text-slate-300">Mines &</span>
                         <span class="text-blue-600">Ressources</span>
@@ -236,7 +237,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
+                    <img src="assets/img/Agriculture-industrie.jpg" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -246,7 +247,7 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-6 pt-16 text-center">
+                <div class="p-4 pt-10 text-center">
                     <h3 class="text-xl font-bold mb-3">
                         <span class="text-slate-300">Commerce &</span>
                         <span class="text-blue-600">Industrie</span>
@@ -267,7 +268,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
+                    <img src="assets/img/energie-Infrastructure.png" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -277,7 +278,7 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-6 pt-16 text-center">
+                <div class="p-4 pt-10 text-center">
                     <h3 class="text-xl font-bold mb-3">
                         <span class="text-slate-300">Énergie &</span>
                         <span class="text-blue-600"> Infrastructure</span>
@@ -297,7 +298,7 @@ function carousel(intervalTime) {
          <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
+                    <img src="assets/img/banque.jpg" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -307,13 +308,16 @@ function carousel(intervalTime) {
                     </div>
                 </div>
 
-                <div class="p-6 pt-16 text-center">
+                <div class="p-4 pt-10 text-center">
                     <h3 class="text-xl font-bold mb-3">
-                        <span class="text-slate-300">Commerce &</span>
-                        <span class="text-blue-600"> Industrie</span>
+                        <span class="text-slate-300"> Banque</span>
+                        <span class="text-blue-600"> Finance & Assurances</span>
                     </h3>
                     <div class="text-slate-200 overflow-hidden transition-all duration-300 ease-in-out">
-                        <p>Nous assistons nos clients en droit général des affaire, du travail, la sécurité sociale, la propriété intellectuelle, la fiscalité, les contrats, l'évaluation juridique et les marchés publics.</p>
+                        <p>
+                        
+                        Nos avocats offrent une expertise de pointe dans les secteurs du droit bancaire, de la finance, des assurances et du change, en fournissant une gamme complète de services juridiques sur mesure. 
+                        </p>
                     </div>
                 </div>
 
@@ -482,7 +486,7 @@ function carousel(intervalTime) {
 
 
 
-    <div class="container mx-auto px-4 mt-6">
+    <div class="container mx-auto px-4 mt-6" id="expert">
         <h1 class="text-4xl font-bold text-white mb-12 flex items-center gap-4">
             <span>Nos</span>
             <span class="text-orange-500">Experts</span>
@@ -875,8 +879,7 @@ function carousel(intervalTime) {
                      class="bg-gray-700 p-8 rounded-lg shadow-xl">
                     <h3 class="text-white text-2xl mb-4">Droit des assurances et droit bancaire</h3>
                     <p class="text-stone-300 leading-relaxed">
-                        DBZ-CONSEIL SCA intervient en droit des assurances, notamment dans la conformité des sociétés d'assurances et des assurés selon la réglementation applicable en République Démocratique du Congo...
-                    </p>
+                    DBZ-CONSEIL SCA intervient de manière experte en droit des assurances, en offrant un accompagnement stratégique sur la conformité des sociétés d'assurances ainsi que des assurés vis-à-vis des réglementations en vigueur en République Démocratique du Congo, en veillant à garantir la conformité légale, la protection des droits des assurés, et la gestion des risques dans le respect des normes et des obligations légales locales.                    </p>
                     <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
                         <i class="fas fa-landmark text-6xl text-blue-500"></i>
                     </div>
@@ -890,7 +893,7 @@ function carousel(intervalTime) {
                      class="bg-gray-700 p-8 rounded-lg shadow-xl">
                     <h3 class="text-white text-2xl mb-4">Droit foncier et droit de l'environnement</h3>
                     <p class="text-stone-300 leading-relaxed">
-                        Expertise en matière de droit foncier et environmental, accompagnement dans les procédures administratives et conformité aux normes environnementales...
+                    Expertise approfondie en droit foncier et en droit de l'environnement, avec un accompagnement complet dans les procédures administratives, la gestion des risques juridiques liés à l'immobilier, ainsi que la conformité stricte aux normes environnementales nationales et internationales, garantissant une gestion durable des ressources et un respect total des réglementations en vigueur.
                     </p>
                     <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
                         <i class="fas fa-tree text-6xl text-blue-500"></i>
@@ -905,8 +908,7 @@ function carousel(intervalTime) {
                      class="bg-gray-700 p-8 rounded-lg shadow-xl">
                     <h3 class="text-white text-2xl mb-4">Droit des loisirs et droit de Sport</h3>
                     <p class="text-stone-300 leading-relaxed">
-                        Accompagnement juridique des organisations sportives, gestion des contrats sportifs et conseil en matière de réglementation sportive...
-                    </p>
+                    Accompagnement juridique spécialisé des organisations sportives, incluant la gestion des contrats sportifs, la négociation des accords de partenariat, ainsi que le conseil stratégique en matière de réglementation sportive, de conformité aux normes nationales et internationales, et de gestion des risques juridiques liés aux activités sportives, afin de garantir la pérennité et la conformité des structures sportives.                    </p>
                     <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
                         <i class="fas fa-running text-6xl text-blue-500"></i>
                     </div>
@@ -920,7 +922,7 @@ function carousel(intervalTime) {
                      class="bg-gray-700 p-8 rounded-lg shadow-xl">
                     <h3 class="text-white text-2xl mb-4">Droit de commerce international</h3>
                     <p class="text-stone-300 leading-relaxed">
-                        Expertise en transactions internationales, négociation de contrats commerciaux et résolution des litiges commerciaux internationaux...
+                    Expertise approfondie en transactions internationales, couvrant la négociation de contrats commerciaux complexes, l'élaboration de stratégies de structuration de deals, ainsi que la résolution efficace des litiges commerciaux internationaux, en assurant la protection des intérêts de nos clients dans le cadre de la législation internationale, la médiation entre parties et l'arbitrage pour garantir des solutions rapides et adaptées.
                     </p>
                     <div class="absolute top-4 right-4 w-32 h-32 opacity-10">
                         <i class="fas fa-globe text-6xl text-blue-500"></i>
