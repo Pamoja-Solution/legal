@@ -314,6 +314,18 @@ function carousel(intervalTime) {
 
         <!-- Répéter pour les autres cartes -->
     </div>
+
+
+            <div class="text-center mt-12">
+                <a href="/domaines.php" class="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold hover:opacity-90 transition-opacity">
+                    Voir plus
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </a>
+            </div>
+
+
 </section>
 
 <style>

@@ -55,7 +55,7 @@
                         <h3 class="text-xl font-semibold text-white">Mines</h3>
                     </div>
                     <div class="mt-4">
-                        <a href="#" class="text-blue-400 hover:text-blue-300 flex items-center">
+                        <a href="/domains/mine.php" class="text-blue-400 hover:text-blue-300 flex items-center">
                             En savoir plus
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -75,7 +75,7 @@
                         <h3 class="text-xl font-semibold text-white">Hydrocarbures</h3>
                     </div>
                     <div class="mt-4">
-                        <a href="#" class="text-blue-400 hover:text-blue-300 flex items-center">
+                        <a href="/domains/hydrocarbures.php" class="text-blue-400 hover:text-blue-300 flex items-center">
                             En savoir plus
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -95,7 +95,7 @@
                         <h3 class="text-xl font-semibold text-white">Foresterie</h3>
                     </div>
                     <div class="mt-4">
-                        <a href="#" class="text-blue-400 hover:text-blue-300 flex items-center">
+                        <a href="/domains/foresteir.php" class="text-blue-400 hover:text-blue-300 flex items-center">
                             En savoir plus
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
