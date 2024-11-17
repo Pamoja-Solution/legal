@@ -62,11 +62,8 @@ body {
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
                     <a href="index.html" class="flex-shrink-0">
-<<<<<<< HEAD
-                        <img class="h-16 w-auto" src="assets/img/logo/logo3.jpeg" alt="Logo">
-=======
                         <img class="h-16 w-auto rounded rounded-4" src="assets/img/logo/logo3.png" alt="Logo">
->>>>>>> 86bafe2bc393e80e8c13ad93e59bf39d8ff2e16e
+
                     </a>
                 </div>
 
