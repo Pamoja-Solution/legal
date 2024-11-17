@@ -8,13 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 
+
 </head>
-<body>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen py-12">
     <script>
         tailwind.config = {
             theme: {
@@ -92,6 +94,35 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="relative" x-data="{ open: false }">
+                        <button @click="open = !open" class="text-white hover:text-accent-light transition-colors duration-200 text-sm font-medium flex items-center space-x-1">
+                            <span>NOS DOMAINES</span>
+                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="{'transform rotate-180': open}"></i>
+                        </button>
+                        <div x-show="open" @click.away="open = false" class="absolute left-0 w-48 mt-2 bg-white rounded-lg shadow-xl border border-gray-100 dropdown-gradient">
+                            <div class="py-1">
+                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Conseil</a>
+                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Contentieux</a>
+                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Fiscalité</a>
+                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Divers</a>
+
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#"  onclick="showSection('Conseil')">Règlement des différends</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#"  onclick="showSection('Contentieux')">Droit des affaires</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Fiscalite')">Droit et gouvernance des ressources naturelles</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers')">Protection du patrimoine</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers1')">Finance, banque et assurances</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers2')">Immigration et coopération internationale</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers3')">Droit de la famille et des personnes</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers4')">Emploi et protection sociale</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers5')">Fiscalité</a>
+                                                    <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers6')">Droits humains et libertés fondamentales</a>
+                            </div>
+                        </div>
+                    </div>
+
+
 
                     <a href="contact.html" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
                         CONTACT
