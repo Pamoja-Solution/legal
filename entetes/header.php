@@ -53,7 +53,7 @@
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
                     <a href="index.html" class="flex-shrink-0">
-                        <img class="h-16 w-auto" src="assets/img/logo/logo3.png" alt="Logo">
+                        <img class="h-16 w-auto" src="assets/img/logo/logo3.jpeg" alt="Logo">
                     </a>
                 </div>
 
@@ -80,20 +80,43 @@
                         </div>
                     </div>
 
+
+
+
                     <div class="relative" x-data="{ open: false }">
-                        <button @click="open = !open" class="text-white hover:text-accent-light transition-colors duration-200 font-medium flex items-center space-x-1">
-                            <span>SERVICES</span>
-                            <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="{'transform rotate-180': open}"></i>
-                        </button>
-                        <div x-show="open" @click.away="open = false" class="absolute left-0 w-48 mt-2 bg-white rounded-lg shadow-xl border border-gray-100 dropdown-gradient">
-                            <div class="py-1">
-                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Conseil</a>
-                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Contentieux</a>
-                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Fiscalité</a>
-                                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Divers</a>
-                            </div>
+                    <!-- Bouton principal pour Services -->
+                    <button 
+                        @click="open = !open" 
+                        class="text-white hover:text-accent-light transition-colors duration-200 font-medium flex items-center space-x-1"
+                    >
+                        <span>SERVICES</span>
+                        <i class="fas fa-chevron-down text-xs transition-transform duration-200" :class="{'transform rotate-180': open}"></i>
+                    </button>
+
+                    <!-- Menu déroulant -->
+                    <div 
+                        x-show="open" 
+                        @click.away="open = false" 
+                        class="absolute left-0 w-48 mt-2 bg-white rounded-lg shadow-xl border border-gray-100 dropdown-gradient"
+                    >
+                        <div class="py-1">
+                            <!-- Sous-sections avec des liens directs -->
+                            <a href="/services.php#Conseil" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">
+                                Conseil
+                            </a>
+                            <a href="/services.php#Contentieux" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">
+                                Contentieux
+                            </a>
+                            <a href="/services.php#Fiscalite" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">
+                                Fiscalité
+                            </a>
+                            <a href="/services.php#Divers" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">
+                                Divers
+                            </a>
                         </div>
                     </div>
+                </div>
+
 
                     <div class="relative" x-data="{ open: false }">
                         <button @click="open = !open" class="text-white hover:text-accent-light transition-colors duration-200 text-sm font-medium flex items-center space-x-1">
@@ -123,7 +146,7 @@
 
 
 
-                    <a href="contact.html" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
+                    <a href="contact.php" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
 
                     <a href="contact.php" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
                         CONTACT
@@ -189,20 +212,28 @@
                     </div>
                 </div>
 
-                <div class="mobile-dropdown">
-                    <button class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
-                        SERVICES
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                    <div class="hidden bg-primary-light rounded-md mt-1">
-                        <a href="#" class="block py-2 px-4 text-white hover:bg-primary">Conseil</a>
-                        <a href="#" class="block py-2 px-4 text-white hover:bg-primary">Contentieux</a>
-                        <a href="#" class="block py-2 px-4 text-white hover:bg-primary">Fiscalité</a>
-                        <a href="#" class="block py-2 px-4 text-white hover:bg-primary">Divers</a>
-                    </div>
-                </div>
 
-                <a href="contact.html" class="block px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200">CONTACT</a>
+
+                        <div class="mobile-dropdown">
+                        <!-- Bouton principal pour les services -->
+                        <a href="/services.php" class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
+                            SERVICES
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <!-- Menu déroulant -->
+                        <div class="hidden bg-primary-light rounded-md mt-1">
+                            <!-- Sous-sections avec ancres -->
+                            <a href="/services.php#Conseil" class="block py-2 px-4 text-white hover:bg-primary">Conseil</a>
+                            <a href="/services.php#Contentieux" class="block py-2 px-4 text-white hover:bg-primary">Contentieux</a>
+                            <a href="/services.php#Fiscalite" class="block py-2 px-4 text-white hover:bg-primary">Fiscalité</a>
+                            <a href="/services.php#Divers" class="block py-2 px-4 text-white hover:bg-primary">Divers</a>
+                        </div>
+                    </div>
+
+
+
+
+                <a href="contact.php" class="block px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200">CONTACT</a>
 
                 <div class="px-3 py-2">
                     <div class="flex justify-center space-x-4">
