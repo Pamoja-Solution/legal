@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="hidden md:flex md:items-center md:space-x-8">
-                    <a href="index.html" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
+                    <a href="index.php" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
                         ACCUEIL
                     </a>
 
@@ -95,7 +95,6 @@
                         </div>
                     </div>
 
-
                     <div class="relative" x-data="{ open: false }">
                         <button @click="open = !open" class="text-white hover:text-accent-light transition-colors duration-200 text-sm font-medium flex items-center space-x-1">
                             <span>NOS DOMAINES</span>
@@ -125,6 +124,8 @@
 
 
                     <a href="contact.html" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
+
+                    <a href="contact.php" class="text-white hover:text-accent-light transition-colors duration-200 font-medium">
                         CONTACT
                     </a>
 
