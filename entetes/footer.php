@@ -50,22 +50,46 @@ define('BASE_URLs', '/');
 
 
 
-
-
 <footer class="bg-primary-dark text-white mt-6">
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Section Contact -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Section Siège Principal -->
         <div>
             <img class="h-16 mb-4 rounded rounded-lg" src="<?=BASE_URLs?>assets/img/logo/logo3.jpeg" alt="Elite Law Firm Logo">
-            <h2 class="text-accent font-semibold mb-2">Siège Principal:</h2>
+            <h2 class="text-accent font-semibold mb-2">Siège Principal :</h2>
             <p class="mb-1">195, Avenue Colonel Ebeya</p>
             <p class="mb-1">Immeuble La Référence, App. 302</p>
             <p class="mb-1">Commune de Gombe</p>
             <p class="mb-1">Ville de Kinshasa, République Démocratique du Congo</p>
-            <p class="mb-1">Tél: +243 821056899</p>
+            <p class="mb-1">Tél : +243 821056899</p>
             <p class="mb-1">
-                E-Mail: 
+                E-Mail : 
+                <a href="mailto:info@aequilex-partners.com" class="text-accent hover:underline">info@aequilex-partners.com</a>
+            </p>
+        </div>
+
+        <!-- Section Bureaux -->
+        <div>
+            <h3 class="text-accent font-semibold mb-4">NOS BUREAUX</h3>
+            <!-- Bureau de Lubumbashi -->
+            <h4 class="text-white font-semibold mb-2">Bureau de Lubumbashi :</h4>
+            <p class="mb-1">2189, Avenue Mama Yemo</p>
+            <p class="mb-1">Complexe « Le WorkSpace » - locaux 2 & 8</p>
+            <p class="mb-1">Commune de Lubumbashi</p>
+            <p class="mb-1">Tél : +243 821056899 ; +243 970083347</p>
+            <p class="mb-4">
+                E-Mail : 
+                <a href="mailto:info@aequilex-partners.com" class="text-accent hover:underline">info@aequilex-partners.com</a>
+            </p>
+
+            <!-- Bureau de Kikwit -->
+            <h4 class="text-white font-semibold mb-2">Bureau de Kikwit :</h4>
+            <p class="mb-1">5, Avenue Muzimba</p>
+            <p class="mb-1">Quartier des Anciens Combattants</p>
+            <p class="mb-1">Commune de Kazamba</p>
+            <p class="mb-1">Tél : +243 821056899</p>
+            <p class="mb-4">
+                E-Mail : 
                 <a href="mailto:info@aequilex-partners.com" class="text-accent hover:underline">info@aequilex-partners.com</a>
             </p>
         </div>
@@ -79,9 +103,15 @@ define('BASE_URLs', '/');
                 <li><a href="../services.php#Fiscalite" class="hover:text-accent-light">Fiscalité</a></li>
                 <li><a href="../services.php#Divers" class="hover:text-accent-light">Divers</a></li>
             </ul>
+            <h3 class="text-accent font-semibold mt-6 mb-2">Nous suivre :</h3>
+            <div class="flex space-x-4">
+                <a href="#" class="text-white hover:text-accent-light"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white hover:text-accent-light"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white hover:text-accent-light"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white hover:text-accent-light"><i class="fab fa-google-plus-g"></i></a>
+            </div>
         </div>
 
-        <!-- Section À propos -->
         <div>
             <h3 class="text-accent font-semibold mb-4">A PROPOS</h3>
             <ul class="space-y-2">
@@ -108,11 +138,3 @@ define('BASE_URLs', '/');
         Copyright © 2024 - Aequitas Legal Partners
     </div>
 </footer>
-
-
-
-</body>
-</html>
-
-
-       
