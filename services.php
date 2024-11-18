@@ -1,4 +1,4 @@
-<?php require("entetes/header.php"); ?>
+<?php $titre ="Servie";require("entetes/header.php"); ?>
 
 <main class="relative overflow-hidden">
     <!-- Hero Start -->
@@ -95,4 +95,3 @@
 
 
 <?php require_once("entetes/footer.php"); ?>
- 

@@ -138,7 +138,7 @@ body {
                         </button>
                         <div x-show="open" @click.away="open = false" class="absolute left-0 w-48 mt-2 bg-white rounded-lg shadow-xl border border-gray-100 dropdown-gradient">
                             <div class="py-1">
-                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Conseil</a>
+                                <a href="../tous.php" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Conseil</a>
                                 <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Contentieux</a>
                                 <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Fiscalité</a>
                                 <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Divers</a>
