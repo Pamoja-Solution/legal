@@ -31,30 +31,54 @@
                 </li>
                 <li class="flex items-start space-x-4">
                     <span class="text-2xl text-yellow-500">💡</span>
-                    <p class="text-slate-300">Conseils sur divers aspects liés à l’exercice d’activités économiques ou philanthropiques.</p>
+                    <p class="text-slate-300">Conseils sur divers aspects liés à l’exercice d’activités économiques, philanthropiques ou de toute autre nature sur le territoire congolais ;</p>
                 </li>
                 <li class="flex items-start space-x-4">
                     <span class="text-2xl text-yellow-500">✍️</span>
-                    <p class="text-slate-300">Conception et rédaction des actes juridiques divers.</p>
+                    <p class="text-slate-300">Conception et rédaction des actes (contrats commerciaux, contrats de travail, conventions de partenariats et contrats de joint-venture, etc.) ; </p>
                 </li>
-                <!-- Autres éléments ici -->
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">📚</span>
+                    <p class="text-slate-300">Consultations et production des avis et études sur diverses questions de droit ;</p>
+                </li>
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">🏛️</span>
+                    <p class="text-slate-300">Assistance et représentation devant les autorités politico-administratives en cas de nécessité ;</p>
+                </li>
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">✅</span>
+                    <p class="text-slate-300">Vérification des actes ;</p>
+                </li>
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">🔍</span>
+                    <p class="text-slate-300">Due diligence juridique ;</p>
+                </li>
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">🗂️</span>
+                    <p class="text-slate-300">Secrétariat juridique (préparation et organisation des réunions des assemblées générales des sociétés ; rédaction des procès-verbaux ; accomplissement des formalités administratives d’authentification et d’enregistrement des procès-verbaux des assemblées générales et des décisions des organes de gestion de la société ; organisation de l’archivage des actes de société, etc.).</p>
+                </li>
             </ul>
+
         </section>
 
         <!-- Contentieux Section -->
         <section id="Contentieux" class="container mx-auto p-8 bg-gray-200 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
-            <h3 class="text-3xl font-bold text-gray-800 mb-6">Représentation Légale</h3>
+            <h3 class="text-3xl font-bold text-gray-800 mb-6">Contentieux</h3>
             <ul class="space-y-4">
                 <li class="flex items-start space-x-4">
                     <span class="text-2xl text-yellow-500">⚖️</span>
-                    <p>Assistance et représentation devant les cours et tribunaux.</p>
+                    <p class="">Assistance et représentation du client, en demandant ou en défendant, devant les cours et tribunaux en matière commerciale, civile, pénale, fiscale, de travail, etc.</p>
                 </li>
                 <li class="flex items-start space-x-4">
                     <span class="text-2xl text-yellow-500">🏛️</span>
-                    <p>Représentation devant les juridictions arbitrales.</p>
+                    <p class="">Représentation devant les juridictions arbitrales ;</p>
                 </li>
-                <!-- Autres éléments ici -->
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">💼</span>
+                    <p class="">Recouvrement des créances du client par voie judiciaire.</p>
+                </li>
             </ul>
+
         </section>
 
         <!-- Fiscalite Section -->
@@ -62,15 +86,19 @@
             <h3 class="text-3xl font-bold text-white mb-6">Fiscalité</h3>
             <ul class="space-y-4">
                 <li class="flex items-start space-x-4">
-                    <span class="text-2xl text-yellow-500">✔️</span>
-                    <p class="text-slate-300">Compliance et assistance lors des contrôles fiscaux.</p>
+                    <span class="text-2xl text-yellow-500">⚖️</span>
+                    <p class="text-slate-300">Assistance et représentation du client, en demandant ou en défendant, devant les cours et tribunaux en matière commerciale, civile, pénale, fiscale, de travail, etc.</p>
                 </li>
                 <li class="flex items-start space-x-4">
-                    <span class="text-2xl text-yellow-500">📊</span>
-                    <p class="text-slate-300">Revues fiscales et consultations diverses.</p>
+                    <span class="text-2xl text-yellow-500">🏛️</span>
+                    <p class="text-slate-300">Représentation devant les juridictions arbitrales ;</p>
                 </li>
-                <!-- Autres éléments ici -->
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">💼</span>
+                    <p class="text-slate-300">Recouvrement des créances du client par voie judiciaire.</p>
+                </li>
             </ul>
+
         </section>
 
         <!-- Divers Section -->
@@ -79,12 +107,17 @@
             <ul class="space-y-4">
                 <li class="flex items-start space-x-4">
                     <span class="text-2xl text-yellow-500">🌍</span>
-                    <p>Immigration : obtention de visas et cartes de travail.</p>
+                    <p>Immigration (Mobilité des travailleurs étrangers ; Obtention des visas et cartes de travail pour étrangers, assistance voyage) ;</p>
                 </li>
                 <li class="flex items-start space-x-4">
                     <span class="text-2xl text-yellow-500">🎓</span>
                     <p>Formation et renforcement des capacités des professionnels.</p>
                 </li>
+                <li class="flex items-start space-x-4">
+                    <span class="text-2xl text-yellow-500">🤝</span>
+                    <p class="">Lobbying.</p>
+                </li>
+
                 <!-- Autres éléments ici -->
             </ul>
         </section>

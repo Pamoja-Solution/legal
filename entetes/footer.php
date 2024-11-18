@@ -74,10 +74,10 @@ define('BASE_URLs', '/');
         <div>
             <h3 class="text-accent font-semibold mb-4">SERVICES</h3>
             <ul class="space-y-2">
-                <li><a href="#" class="hover:text-accent-light">Conseil</a></li>
-                <li><a href="#" class="hover:text-accent-light">Contentieux</a></li>
-                <li><a href="#" class="hover:text-accent-light">Fiscalité</a></li>
-                <li><a href="#" class="hover:text-accent-light">Divers</a></li>
+                <li><a href="../services.php#Conseil" class="hover:text-accent-light">Conseil</a></li>
+                <li><a href="../services.php#Contentieux" class="hover:text-accent-light">Contentieux</a></li>
+                <li><a href="../services.php#Fiscalite" class="hover:text-accent-light">Fiscalité</a></li>
+                <li><a href="../services.php#Divers" class="hover:text-accent-light">Divers</a></li>
             </ul>
         </div>
 
