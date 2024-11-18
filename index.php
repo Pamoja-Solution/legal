@@ -1,4 +1,4 @@
-<?php require("entetes/header.php") ?>
+<?php  require("entetes/header.php") ?>
 <div x-data="carousel(5000)" class="relative w-full h-screen overflow-hidden mt-6">
     <!-- Slides -->
     <div class="relative h-full">
@@ -317,9 +317,9 @@ function carousel(intervalTime) {
                     </h3>
                     <div class="text-slate-200 overflow-hidden transition-all duration-300 ease-in-out">
                         <p> 
-Rédaction de contrats de construction et de sous-traitance.
-Gestion des litiges liés à l'immobilier (propriété foncière, copropriété).</p>
-                    </div>
+        Rédaction de contrats de construction et de sous-traitance.
+        Gestion des litiges liés à l'immobilier (propriété foncière, copropriété).</p>
+                            </div>
 
                     <a href="/domains/constuction.php" 
                         class="mt-4 inline-block text-indigo-600 hover:text-indigo-700">
@@ -378,7 +378,103 @@ Gestion des litiges liés à l'immobilier (propriété foncière, copropriété)
     }
 }
 </style>
+
+
+
 <div class="h-1 bg-blue-500 my-6"></div>
+
+
+
+
+
+
+
+
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-animation:hover {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+
+    <section class="py-2 ">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- En-tête de la section -->
+            <div class="text-center ">
+                <h2 class="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+                    Notre Équipe
+                </h2>
+                
+
+                <div class="mb-4 max-w-3xl mx-auto text-center">
+                    
+                    <p class="text-gray-200 leading-relaxed mb-8">
+                        Aequitas Legal Partners est composée des professionnels (avocats et consultants) recrutés parmi les juristes formés dans les meilleures universités de la République Démocratique du Congo et à l'étranger et disposant d'une expérience professionnelle avérée dans les principaux domaines d'intervention du cabinet.
+                    </p>
+                    <p class="text-gray-200 leading-relaxed">
+                        Notre équipe est constituée des professionnels qui, en plus de la langue officielle (le français) et de principales langues nationales congolaises (kikongo, lingala, swahili et tshiluba), maitrisent ensemble plusieurs langues étrangères, à savoir l'anglais, l'allemand, l'espagnol, l'italien et le néerlandais.
+                    </p>
+                </div>
+
+                
+            </div>
+
+            <!-- Grille des membres -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <!-- Membre 1 -->
+                <div class="group float-animation">
+                    <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105">
+                        <div class="h-72 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
+                            <div class="w-32 h-32 bg-gray-300 rounded-full"></div>
+                        </div>
+                        <div class="p-6 bg-white">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Prof. Yves-Junior Manzanza</h3>
+                            <p class="text-blue-600 font-medium mb-2">Associé co-fondateur & Gérant</p>
+                            <p class="text-gray-600 text-sm mb-4">Docteur en droit du travail | Expert en droit des affaires</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">Droit des affaires</span>
+                                <span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full">Droit du travail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membre 2 -->
+                <div class="group float-animation">
+                    <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105">
+                        <div class="h-72 bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
+                            <div class="w-32 h-32 bg-gray-300 rounded-full"></div>
+                        </div>
+                        <div class="p-6 bg-white">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Mimie-Aimée Manzanza Malu</h3>
+                            <p class="text-blue-600 font-medium mb-2">Associée co-fondatrice</p>
+                            <p class="text-gray-600 text-sm mb-4">Droit de la famille, droit de l’immigration, droit international privé, logistique, organisation des formations.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block px-3 py-1 text-xs font-medium bg-pink-100 text-pink-800 rounded-full">Droit international</span>
+                                <span class="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">Droit commercial</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bouton Voir plus -->
+            <div class="text-center">
+                <a href="/equipes.php" class="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold transform transition duration-500 hover:scale-105 hover:shadow-lg">
+                    <span>Découvrir toute l'équipe</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-3 bg-blue-500 my-6"></div>
 
 
 <section class=" py-20 px-4" x-data="{ activeTab: 'assurance' }">
