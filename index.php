@@ -199,7 +199,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700  rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Mines" 
+                    <img src="assets/nos/mine.jpeg" alt="Mines" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -215,8 +215,12 @@ function carousel(intervalTime) {
                         <span class="text-blue-600">Ressources</span>
                     </h3>
                     <div class="text-slate-200 overflow-hidden transition-all duration-300 ease-in-out">
-                        <p>Expertise en droit minier et ressources naturelles, Nous avons une expérience avérée du domaines des mines, du pétrole et du gaz, de la foresterie, de l'agriculture, des ressources hydrauliques et de l'environnement.</p>
+                        <p>Expertise en droit minier et ressources naturelles, Nous avons une expérience avérée du domaines des mines, du pétrole et du gaz, de la foresterie,...</p>
                     </div>
+                    <a href="/domains/mine.php" 
+                        class="mt-4 inline-block text-indigo-600 hover:text-indigo-700">
+                        Lire la suite →
+                    </a>
                 </div>
 
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/5 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -227,7 +231,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
+                    <img src="assets/nos/commerce.jpeg" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -245,6 +249,10 @@ function carousel(intervalTime) {
                     <div class="text-slate-200 overflow-hidden transition-all duration-300 ease-in-out">
                         <p>Nous assistons nos clients en droit général des affaire, du travail, la sécurité sociale, la propriété intellectuelle, la fiscalité, les contrats, l'évaluation juridique et les marchés publics.</p>
                     </div>
+                    <a href="/domains/commerce.php" 
+                        class="mt-4 inline-block text-indigo-600 hover:text-indigo-700">
+                        Lire la suite →
+                    </a>
                 </div>
 
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/5 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -258,7 +266,7 @@ function carousel(intervalTime) {
         <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
+                    <img src="assets/nos/energie.jpeg" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -274,8 +282,12 @@ function carousel(intervalTime) {
                         <span class="text-blue-600"> Infrastructure</span>
                     </h3>
                     <div class="text-slate-200 overflow-hidden transition-all duration-300 ease-in-out">
-                        <p>Nous intervenons en matières juridiques relatives à l'immobilier, au foncier, aux télécommunications, aux TIC, à l'énergie électrique, au transport et aux infrastructures.</p>
+                        <p>Nous intervenons en matières juridiques relatives à l'immobilier, au foncier, aux télécommunications, aux TIC, à l'énergie électrique, ...</p>
                     </div>
+                    <a href="/domains/energie.php" 
+                        class="mt-4 inline-block text-indigo-600 hover:text-indigo-700">
+                        Lire la suite →
+                    </a>
                 </div>
 
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/5 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -288,7 +300,7 @@ function carousel(intervalTime) {
          <div class="card-wrapper">
             <div class="relative bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
                 <div class="h-48 overflow-hidden">
-                    <img src="assets/img/gallery/home_blog1.png" alt="Commerce" 
+                    <img src="assets/nos/construction.jpeg" alt="Commerce" 
                          class="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105">
                 </div>
                 
@@ -300,12 +312,19 @@ function carousel(intervalTime) {
 
                 <div class="p-6 pt-16 text-center">
                     <h3 class="text-xl font-bold mb-3">
-                        <span class="text-slate-300">Commerce &</span>
-                        <span class="text-blue-600"> Industrie</span>
+                        <span class="text-slate-300">Construction &</span>
+                        <span class="text-blue-600"> Imobilier</span>
                     </h3>
                     <div class="text-slate-200 overflow-hidden transition-all duration-300 ease-in-out">
-                        <p>Nous assistons nos clients en droit général des affaire, du travail, la sécurité sociale, la propriété intellectuelle, la fiscalité, les contrats, l'évaluation juridique et les marchés publics.</p>
+                        <p> 
+Rédaction de contrats de construction et de sous-traitance.
+Gestion des litiges liés à l'immobilier (propriété foncière, copropriété).</p>
                     </div>
+
+                    <a href="/domains/constuction.php" 
+                        class="mt-4 inline-block text-indigo-600 hover:text-indigo-700">
+                        Lire la suite →
+                    </a>
                 </div>
 
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/5 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
