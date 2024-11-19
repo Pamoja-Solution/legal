@@ -540,7 +540,7 @@ function carousel(intervalTime) {
                     <p class="text-stone-300 leading-relaxed">
                     DBZ-CONSEIL SCA intervient de manière experte en droit des assurances, en offrant un accompagnement stratégique sur la conformité des sociétés d'assurances ainsi que des assurés vis-à-vis des réglementations en vigueur en République Démocratique du Congo, en veillant à garantir la conformité légale, la protection des droits des assurés, et la gestion des risques dans le respect des normes et des obligations légales locales.                    </p>
                     <div class="absolute top-4 right-4 w-32 h-32 ">
-                        <i class="fas fa-landmark text-6xl text-gray-100"  ></i>
+                        <i class="fas fa-landmark text-6xl text-gray-600"  ></i>
                     </div>
                 </div>
 
@@ -555,7 +555,7 @@ function carousel(intervalTime) {
                     Expertise approfondie en droit foncier et en droit de l'environnement, avec un accompagnement complet dans les procédures administratives, la gestion des risques juridiques liés à l'immobilier, ainsi que la conformité stricte aux normes environnementales nationales et internationales, garantissant une gestion durable des ressources et un respect total des réglementations en vigueur.
                     </p>
                     <div class="absolute top-4 right-4 w-32 h-32 ">
-                        <i class="fas fa-tree text-6xl text-gray-100"></i>
+                        <i class="fas fa-tree text-6xl text-gray-600"></i>
                     </div>
                 </div>
 
@@ -569,7 +569,7 @@ function carousel(intervalTime) {
                     <p class="text-stone-300 leading-relaxed">
                     Accompagnement juridique spécialisé des organisations sportives, incluant la gestion des contrats sportifs, la négociation des accords de partenariat, ainsi que le conseil stratégique en matière de réglementation sportive, de conformité aux normes nationales et internationales, et de gestion des risques juridiques liés aux activités sportives, afin de garantir la pérennité et la conformité des structures sportives.                    </p>
                     <div class="absolute top-4 right-4 w-32 h-32">
-                        <i class="fas fa-running text-6xl text-gray-100"></i>
+                        <i class="fas fa-running text-6xl text-gray-600"></i>
                     </div>
                 </div>
 
@@ -584,7 +584,7 @@ function carousel(intervalTime) {
                     Expertise approfondie en transactions internationales, couvrant la négociation de contrats commerciaux complexes, l'élaboration de stratégies de structuration de deals, ainsi que la résolution efficace des litiges commerciaux internationaux, en assurant la protection des intérêts de nos clients dans le cadre de la législation internationale, la médiation entre parties et l'arbitrage pour garantir des solutions rapides et adaptées.
                     </p>
                     <div class="absolute top-4 right-4 w-32 h-32 ">
-                        <i class="fas fa-globe text-6xl  text-gray-100"></i>
+                        <i class="fas fa-globe text-6xl  text-gray-600"></i>
                     </div>
                 </div>
             </div>
