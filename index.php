@@ -29,11 +29,11 @@
                         <div class="w-20 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mb-8 transform translate-y-4 opacity-0 animation-delay-1"></div>
                         <h2 class="text-5xl font-bold mb-6 transform translate-y-4 opacity-0 animation-delay-2" x-text="slide.title"></h2>
                         <p class="text-xl leading-relaxed mb-8 transform translate-y-4 opacity-0 animation-delay-3" x-text="slide.text"></p>
-                        <button class="px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full text-white text-lg font-semibold 
+                        <a href="/services.php" class="px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full text-white text-lg font-semibold 
                                    transform translate-y-4 opacity-0 animation-delay-4 
                                    hover:shadow-lg hover:scale-105 transition-all duration-300">
-                            DÉCOUVRIR NOS SERVICES
-                        </button>
+                            DÉCOUVRIR NOS SERVICES 
+                        </a>
                     </div>
                 </div>
             </div>

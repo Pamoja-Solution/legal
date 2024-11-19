@@ -225,10 +225,10 @@ body {
 
                         <div class="mobile-dropdown">
                             <!-- Bouton principal pour les services -->
-                            <a href="/services.php" class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
+                            <button href="/services.php" class="w-full text-left px-3 py-2 text-white hover:bg-primary-light rounded-md transition-colors duration-200 flex justify-between items-center">
                                 SERVICES
                                 <i class="fas fa-chevron-down"></i>
-                            </a>
+                            </button>
                             <!-- Menu déroulant -->
                             <div class="hidden bg-primary-light rounded-md mt-1">
                                 <!-- Sous-sections avec ancres -->
