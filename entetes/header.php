@@ -254,20 +254,17 @@ body {
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <div id="dropdown-content" class="hidden bg-primary-light rounded-md mt-1">
-                            <a href="#" class="block py-1  text-sm px-2 text-white hover:bg-primary">Conseil</a>
-                            <a href="#" class="block py-1 text-sm px-2 text-white hover:bg-primary">Contentieux</a>
-                            <a href="#" class="block py-1 text-sm px-2 text-white hover:bg-primary">Fiscalité</a>
-                            <a href="#" class="block py-1 text-sm px-2 text-white hover:bg-primary">Divers</a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#"  >Règlement des différends</a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droit des affaires</a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droit et gouvernance </a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Protection du patrimoine</a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Finance, banque </a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Immigration </a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droit de la famille</a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Emploi</a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Fiscalité</a>
-                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="#" >Droits humains </a>
+                           
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php"  >Règlement des différends</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Droit des affaires</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Droit et gouvernance </a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Protection du patrimoine</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Finance, banque </a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Immigration </a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Droit de la famille</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Emploi</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Fiscalité</a>
+                            <a class="block py-1 text-sm px-2 text-white hover:bg-primary" href="/domaines.php" >Droits humains </a>
                         </div>
                     </div>
 

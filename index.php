@@ -445,13 +445,13 @@ function carousel(intervalTime) {
                 </div>
                 <!-- Membre 1 -->
                 <div class="group float-animation">
-                    <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105">
+                    <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105 bg-gray-900">
                         <div class="h-72 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-                            <div class="w-full h-full bg-gray-300 rounded-full">
+                            <div class="w-full h-full bg-gray-300 rounded-full "  >
                                 <img src="/assets/img/gallery/yan 7.jpg" alt="">
                             </div>
                         </div>
-                        <div class="p-6 bg-white">
+                        <div class="p-6 " style="z-index: 4;">
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Prof. Yves-Junior Manzanza</h3>
                             <p class="text-blue-600 font-medium mb-2">Associé co-fondateur & Gérant</p>
                             <p class="text-gray-600 text-sm mb-4">Docteur en droit du travail | Expert en droit des affaires</p>
