@@ -381,7 +381,7 @@ function carousel(intervalTime) {
 
 
 
-<div class="h-1 bg-blue-500 my-6"></div>
+<div class="h-3 bg-gradient-to-r from-blue-600 to-purple-600 my-6"></div>
 
 
 

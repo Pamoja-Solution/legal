@@ -25,7 +25,7 @@
     <header class="relative h-[40vh] flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0 bg-black/50"></div>
         <div class="relative z-10 text-center">
-            <h1 class="text-5xl font-bold text-white mb-4 tracking-wider">
+            <h1 class="text-4xl font-bold text-white mb-4 tracking-wider">
                 Nos Domaines d'Intervention
             </h1>
             <div class="w-24 h-1 bg-blue-500 mx-auto rounded-full"></div>

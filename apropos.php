@@ -358,6 +358,65 @@ function carousel(intervalTime) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<div class="max-w-6xl mx-auto px-4 py-12" id="portefeuille">
+    <div class="bg-white rounded-2xl shadow-lg p-8">
+        <!-- Header Section -->
+        <h1 class="text-3xl font-bold text-gray-800 mb-6">Notre Portefeuille Clients</h1>
+
+        <!-- Description Section -->
+        <p class="text-gray-600 mb-8 leading-relaxed">
+            Notre portefeuille client est composé principalement des entreprises et institutions exerçant diverses activités, notamment les activités commerciales et industrielles, les travaux de génie, les œuvres à caractère philanthropique, la coopération internationale au développement, les services consulaires et diplomatiques, la radiodiffusion, les prestations des services, la sous-traitance dans le secteur privé, la consultance, etc.
+        </p>
+
+        <!-- Clients Section -->
+        <div>
+            <h2 class="text-xl font-semibold text-gray-700 mb-4">Nos références clients :</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition duration-300 flex items-center space-x-4">
+                    <img src="assets/nos/dw.webp" alt="Deutsche Welle Logo" class="w-32 h-32 rounded-full">
+                    <a href="#" class="text-blue-600 hover:text-blue-800">Deutsche Welle (DW)</a>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition duration-300 flex items-center space-x-4">
+                    <img src="assets/nos/ambassade.jpeg" alt="Ambassade d'Allemagne Logo" class="w-32 h-32 rounded-full">
+                    <a href="#" class="text-blue-600 hover:text-blue-800">Ambassade de la République Fédérale d'Allemagne en RDC</a>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition duration-300 flex items-center space-x-4">
+                    <img src="assets/nos/friendr.png" alt="Fondation Friedrich Ebert Logo" class="w-32 h-32 rounded-full">
+                    <a href="#" class="text-blue-600 hover:text-blue-800">Fondation Friedrich Ebert</a>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition duration-300 flex items-center space-x-4">
+                    <img src="assets/nos/patrick.jpeg" alt="Particip GmbH Logo" class="w-32 h-32 rounded-full">
+                    <a href="#" class="text-blue-600 hover:text-blue-800">Particip GmbH</a>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition duration-300 flex items-center space-x-4">
+                    <img src="assets/nos/rtm.png" alt="RTM Construct Logo" class="w-32 h-32 rounded-full">
+                    <a href="#" class="text-blue-600 hover:text-blue-800">RTM Construct Sarl</a>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition duration-300 flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M7 17.9l8.9-8.9c-.7-1.1-1.9-1.8-3.2-1.8-2.1 0-3.9 1.7-3.9 3.9 0 1.3.7 2.5 1.8 3.2l-3.6 3.6zm7.6-12.7c.9-.9 2.1-1.4 3.4-1.4s2.5.5 3.4 1.4l.1.1c.9.9 1.4 2.1 1.4 3.4s-.5 2.5-1.4 3.4l-8.9 8.9c-1.3 1.3-3.1 2.1-5 2.1s-3.7-.8-5-2.1l-.1-.1c-1.3-1.3-2.1-3.1-2.1-5s.8-3.7 2.1-5l8.9-8.9z"/>
+                            </svg>
+                    <a href="#" class="text-blue-600 hover:text-blue-800">MFG Business Sarlu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <section class="bg-gray-100 py-16" id="portefeuille" >
   <div class="container mx-auto px-6 lg:px-12">
     <!-- Titre de la section -->
@@ -496,21 +555,18 @@ function carousel(intervalTime) {
                         <!-- Partenaire 1 -->
                         <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/brand1.png" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
+                                <img src="assets/nos/image.png" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
                             </div>
-                            <h3 class="text-lg font-semibold mb-2">Emilie</h3>
-                            <p class="text-sm mb-4">Spécialisé en conseil juridique international.</p>
+                            <h3 class="text-lg font-semibold mb-2">CESCIC-Canada International </h3>
+                            <p class="text-sm mb-4">cabinet de consultation en immigration qui a pour mission d'aider et d'accompagner les gens à travers le monde à réaliser leur projet d'immigration au Canada</p>
                             <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h21.35c.732 0 1.325-.593 1.325-1.325v-21.351c0-.732-.593-1.325-1.325-1.325zm-15.35 20.449h-3.554v-11.452h3.554v11.452zm-1.776-13.019c-1.144 0-2.063-.926-2.063-2.065s.919-2.063 2.063-2.063c1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm14.126 13.019h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667h-3.554v-11.452h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z" />
-                                    </svg>
+                                <a href="https://cescic.com/" class="social-icon text-gray-400 hover:text-blue-500">
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/>
+                                </svg>
+
                                 </a>
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.09-.193-7.715-2.157-10.141-5.126-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                                    </svg>
-                                </a>
+                                
                             </div>
                         </div>
                         <!-- Partenaire 2 -->
@@ -518,56 +574,77 @@ function carousel(intervalTime) {
                             <div class="relative mb-4">
                                 <img src="assets/img/gallery/brand2.png" alt="Partenaire 2" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
                             </div>
-                            <h3 class="text-lg font-semibold mb-2">Frobes</h3>
-                            <p class="text-sm mb-4">Expertise en médiation et arbitrage en RDC.</p>
+                            <h3 class="text-lg font-semibold mb-2">Deutsch-Kongolesische Juristenvereinigung (DKoJV e.V.)</h3>
+                            <p class="text-sm mb-4">Association Germano-Congolaise des juristes .</p>
                             <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <!-- Icône sociale -->
+                                <a href="https://www.dkojv.org/" class="social-icon text-gray-400 hover:text-blue-500">
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/>
+                                </svg>
+
                                 </a>
+                                
                             </div>
+                        </div>
+
+
+
+
+
+                        <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
+                            <div class="relative mb-4">
+                                <img src="assets/nos/image copy.png" alt="Partenaire 2" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
+                            </div>
+                            <h3 class="text-lg font-semibold mb-2">Hamann Rechtsanwälte</h3>
+                            <p class="text-sm mb-4"></p>
+                            <div class="flex gap-4">
+                                <a href="https://hamann-legal.de/index_fr.html" class="social-icon text-gray-400 hover:text-blue-500">
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/>
+                                </svg>
+
+                                </a>
+                                
+                            </div>
+                        </div>
+
+
+
+                        <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
+                            <div class="relative mb-4">
+                                <img src="assets/nos/image copy 2.png" alt="Partenaire 2" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
+                            </div>
+                            <h3 class="text-lg font-semibold mb-2">Intelligence Consulting DRC Sarl</h3>
+                            <p class="text-sm mb-4"></p>
+                            <!--div class="flex gap-4">
+                                <a href="https://www.dkojv.org/" class="social-icon text-gray-400 hover:text-blue-500">
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/>
+                                </svg>
+
+                                </a>
+                                
+                            </div-->
                         </div>
 
 
                         <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/brand3.png" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
+                                <img src="assets/nos/image copy 3.png" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
                             </div>
-                            <h3 class="text-lg font-semibold mb-2">Javana</h3>
-                            <p class="text-sm mb-4">Spécialisé en conseil juridique international.</p>
+                            <h3 class="text-lg font-semibold mb-2">Smart & Sustainable Business Solutions (SSBS Sarl)</h3>
+                            <p class="text-sm mb-4">est une société de droit congolais, qui offre des services aussi bien aux particuliers qu'à d'autres entreprises</p>
                             <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h21.35c.732 0 1.325-.593 1.325-1.325v-21.351c0-.732-.593-1.325-1.325-1.325zm-15.35 20.449h-3.554v-11.452h3.554v11.452zm-1.776-13.019c-1.144 0-2.063-.926-2.063-2.065s.919-2.063 2.063-2.063c1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm14.126 13.019h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667h-3.554v-11.452h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z" />
-                                    </svg>
+                                <a href="https://ssbs-sarl.com/" class="social-icon text-gray-400 hover:text-blue-500">
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/>
+                                </svg>
+
                                 </a>
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.09-.193-7.715-2.157-10.141-5.126-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                                    </svg>
-                                </a>
+                                
                             </div>
                         </div>
 
-
-                        <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
-                            <div class="relative mb-4">
-                                <img src="assets/img/gallery/brand4.png" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
-                            </div>
-                            <h3 class="text-lg font-semibold mb-2">Sport Tactics</h3>
-                            <p class="text-sm mb-4">Spécialisé en conseil juridique international.</p>
-                            <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h21.35c.732 0 1.325-.593 1.325-1.325v-21.351c0-.732-.593-1.325-1.325-1.325zm-15.35 20.449h-3.554v-11.452h3.554v11.452zm-1.776-13.019c-1.144 0-2.063-.926-2.063-2.065s.919-2.063 2.063-2.063c1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm14.126 13.019h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667h-3.554v-11.452h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.09-.193-7.715-2.157-10.141-5.126-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
 
 
                     </div>
@@ -579,89 +656,6 @@ function carousel(intervalTime) {
 
 
 
-                <div class="swiper-slide">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <!-- Partenaire 1 -->
-                        <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
-                            <div class="relative mb-4">
-                                <img src="assets/img/gallery/brand5.png" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
-                            </div>
-                            <h3 class="text-lg font-semibold mb-2">Cara Indoors</h3>
-                            <p class="text-sm mb-4">Spécialisé en conseil juridique international.</p>
-                            <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h21.35c.732 0 1.325-.593 1.325-1.325v-21.351c0-.732-.593-1.325-1.325-1.325zm-15.35 20.449h-3.554v-11.452h3.554v11.452zm-1.776-13.019c-1.144 0-2.063-.926-2.063-2.065s.919-2.063 2.063-2.063c1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm14.126 13.019h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667h-3.554v-11.452h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.09-.193-7.715-2.157-10.141-5.126-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Partenaire 2 -->
-                        <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
-                            <div class="relative mb-4">
-                                <img src="assets/img/gallery/cana.png" alt="Partenaire 2" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
-                            </div>
-                            <h3 class="text-lg font-semibold mb-2">CESCIC</h3>
-                            <p class="text-sm mb-4">Expertise en médiation et arbitrage en RDC.</p>
-                            <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <!-- Icône sociale -->
-                                </a>
-                            </div>
-                        </div>
-
-
-                        <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
-                            <div class="relative mb-4">
-                                <img src="assets/img/gallery/dw.png" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
-                            </div>
-                            <h3 class="text-lg font-semibold mb-2">DW</h3>
-                            <p class="text-sm mb-4">Spécialisé en conseil juridique international.</p>
-                            <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h21.35c.732 0 1.325-.593 1.325-1.325v-21.351c0-.732-.593-1.325-1.325-1.325zm-15.35 20.449h-3.554v-11.452h3.554v11.452zm-1.776-13.019c-1.144 0-2.063-.926-2.063-2.065s.919-2.063 2.063-2.063c1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm14.126 13.019h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667h-3.554v-11.452h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.09-.193-7.715-2.157-10.141-5.126-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-
-
-                        <div class="partner-card rounded-xl p-4 bg-white text-gray-800 transition-all duration-300 hover:transform hover:scale-105 shadow-md">
-                            <div class="relative mb-4">
-                                <img src="assets/img/gallery/exauc.jpeg" alt="Partenaire 1" class="w-full h-40 object-contain rounded-lg bg-gray-100 p-2">
-                            </div>
-                            <h3 class="text-lg font-semibold mb-2">HUMANN</h3>
-                            <p class="text-sm mb-4">Spécialisé en conseil juridique international.</p>
-                            <div class="flex gap-4">
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h21.35c.732 0 1.325-.593 1.325-1.325v-21.351c0-.732-.593-1.325-1.325-1.325zm-15.35 20.449h-3.554v-11.452h3.554v11.452zm-1.776-13.019c-1.144 0-2.063-.926-2.063-2.065s.919-2.063 2.063-2.063c1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm14.126 13.019h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667h-3.554v-11.452h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="social-icon text-gray-400 hover:text-blue-500">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.09-.193-7.715-2.157-10.141-5.126-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-                </div>
             </div>
         </div>
         </div>
