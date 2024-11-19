@@ -138,3 +138,6 @@ define('BASE_URLs', '/');
         Copyright © 2024 - Aequitas Legal Partners
     </div>
 </footer>
+
+
+

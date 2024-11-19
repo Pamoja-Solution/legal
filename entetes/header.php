@@ -86,7 +86,7 @@ body {
                                 <a href="apropos.php#vision" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Notre vision</a>
                                 <a href="apropos.php#contact" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Localisation</a>
                                 <a href="apropos.php#organisation" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Organisation</a>
-                                <a href="index.php#expert" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Equipe</a>
+                                <a href="/equipes.php" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Equipe</a>
                                 <a href="apropos.php#portefeuille" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Notre portefeuille</a>
                                 <a href="apropos.php#partenariat" class="block px-4 py-2 text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Partenariats professionnels</a>
                             </div>
@@ -138,20 +138,17 @@ body {
                         </button>
                         <div x-show="open" @click.away="open = false" class="absolute left-0 w-48 mt-2 bg-white rounded-lg shadow-xl border border-gray-100 dropdown-gradient">
                             <div class="py-1">
-                                <a href="../tous.php" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Conseil</a>
-                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Contentieux</a>
-                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Fiscalité</a>
-                                <a href="#" class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200">Divers</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#"  onclick="showSection('Conseil')">Règlement des différends</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#"  onclick="showSection('Contentieux')">Droit des affaires</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Fiscalite')">Droit et gouvernance des ressources naturelles</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers')">Protection du patrimoine</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers1')">Finance, banque et assurances</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers2')">Immigration et coopération internationale</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers3')">Droit de la famille et des personnes</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers4')">Emploi et protection sociale</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers5')">Fiscalité</a>
-                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="#" onclick="showSection('Divers6')">Droits humains et libertés fondamentales</a>
+                               
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#different"  onclick="showSection('Conseil')">Règlement des différends</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#affaires"  onclick="showSection('Contentieux')">Droit des affaires</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#gouv" onclick="showSection('Fiscalite')">Droit et gouvernance des ressources naturelles</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#protection" onclick="showSection('Divers')">Protection du patrimoine</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#finance" onclick="showSection('Divers1')">Finance, banque et assurances</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#immigration" onclick="showSection('Divers2')">Immigration et coopération internationale</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#famille" onclick="showSection('Divers3')">Droit de la famille et des personnes</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#emploi" onclick="showSection('Divers4')">Emploi et protection sociale</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#fisccalite" onclick="showSection('Divers5')">Fiscalité</a>
+                                <a class="block px-2 py-1 text-sm font-medium text-gray-700 hover:bg-accent hover:text-white rounded-md mx-1 transition-colors duration-200" href="<?= BASE_URL?>tous.php#humains" onclick="showSection('Divers6')">Droits humains et libertés fondamentales</a>
                             </div>
                         </div>
                     </div>
@@ -218,7 +215,7 @@ body {
                         <a href="apropos.php#vision"  class="block py-2 px-4 text-white hover:bg-primary">Notre vision</a>
                         <a href="apropos.php#contact"  class="block py-2 px-4 text-white hover:bg-primary">Localisation</a>
                         <a href="apropos.php#organisation" class="block py-2 px-4 text-white hover:bg-primary">Organisation</a>
-                        <a href="index.php#expert"  class="block py-2 px-4 text-white hover:bg-primary">Equipe</a>
+                        <a href="/equipes.php"  class="block py-2 px-4 text-white hover:bg-primary">Équipe</a>
                         <a href="apropos.php#portefeuille" class="block py-2 px-4 text-white hover:bg-primary">Notre portefeuille</a>
                         <a href="apropos.php#partenariat"  class="block py-2 px-4 text-white hover:bg-primary">Partenariats professionnels</a>
                     </div>

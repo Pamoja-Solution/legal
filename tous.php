@@ -1,137 +1,174 @@
 <?php $titre ="Domaines";require("entetes/header.php"); ?>
-    <section class="py-16 px-4" >
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 bg-gray-900 text-white mt-6">
-            <!-- Card: Contentieux -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Contentieux</h2>
-                <p class="text-sm text-gray-400">
-                Assistance complète dans la résolution des conflits juridiques. Nous représentons nos clients devant toutes les juridictions compétentes.
-                </p>
+
+<section class="bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 min-h-screen py-16">
+    <nav class="">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20" style="object-fit: contain;" >
+                <div class="flex-shrink-0">
+                    <h1 class="text-white text-2xl font-bold tracking-wider">CABINET JURIDIQUE</h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="different" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-blue-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-blue-500/20 p-3 rounded-lg">
+                        <i class="fas fa-balance-scale text-blue-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Règlement des différends</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Résolution de litiges commerciaux, civils et internationaux avec expertise.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Litiges commerciaux</li>
-                <li>Conflits contractuels</li>
-                <li>Actions en responsabilité</li>
+                    <li>Arbitrage</li>
+                    <li>Contentieux civils et commerciaux</li>
+                    <li>Contentieux administratif et constitutionnel</li>
                 </ul>
             </div>
 
-            <!-- Card: Fiscalité -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Fiscalité</h2>
-                <p class="text-sm text-gray-400">
-                Conseils en gestion fiscale pour particuliers et entreprises. Optimisez vos obligations fiscales en toute légalité.
-                </p>
+            <div  id="affaires" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-purple-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-purple-500/20 p-3 rounded-lg">
+                        <i class="fas fa-briefcase text-purple-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Droit des affaires</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Conseil et accompagnement juridique pour entreprises.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Planification fiscale</li>
-                <li>Déclarations d'impôts</li>
-                <li>Contentieux fiscaux</li>
+                    <li>Droit des investissements</li>
+                    <li>Droit des sociétés, y compris les entreprises en difficultés</li>
+                    <li>Droit des marchés publics</li>
+                    <li>Droit commercial général</li>
+                    <li>Sous-traitance dans le secteur privé</li>
                 </ul>
             </div>
 
-            <!-- Card: Divers -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Divers</h2>
-                <p class="text-sm text-gray-400">
-                Services juridiques variés adaptés à vos besoins, couvrant des domaines spécifiques et complexes.
-                </p>
+            <div id="gouv" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-green-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-green-500/20 p-3 rounded-lg">
+                        <i class="fas fa-tree text-green-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Droit et gouvernance des ressources naturelles</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Expertise en droit environnemental et gestion des ressources.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Consultations personnalisées</li>
-                <li>Rédaction de contrats</li>
-                <li>Audits juridiques</li>
+                    <li> Droit minier et des hydrocarbures</li>
+                    <li> Droit de l’environnement</li>
+                    <li> Responsabilité sociale des entreprises (RSE) et développement communautaire</li>
+                    <li> Etudes d’impacts environnementaux</li>
                 </ul>
             </div>
 
-            <!-- Card: Règlement des différends -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Règlement des différends</h2>
-                <p class="text-sm text-gray-400">
-                Solutions alternatives pour résoudre vos différends sans passer par un procès coûteux et long.
-                </p>
+            <div id="protection" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-yellow-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-yellow-500/20 p-3 rounded-lg">
+                        <i class="fas fa-shield-alt text-yellow-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Protection du patrimoine</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Protection et gestion de patrimoine personnalisée.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Médiation</li>
-                <li>Arbitrage</li>
-                <li>Négociation</li>
+                    <li>Droit foncier et immobilier</li>
+                    <li>Droit de la propriété intellectuelle et des innovations technologiques</li>
+                    <li>Droit des sûretés et recouvrement des créances</li>
                 </ul>
             </div>
 
-            <!-- Card: Droit des affaires -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Droit des affaires</h2>
-                <p class="text-sm text-gray-400">
-                Assistance juridique pour les entreprises, couvrant la création, la gestion et les opérations commerciales.
-                </p>
+            <div id="finance" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-red-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-red-500/20 p-3 rounded-lg">
+                        <i class="fas fa-landmark text-red-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Finance & Banque</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Services juridiques pour secteur financier et bancaire.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Création d'entreprises</li>
-                <li>Fusions et acquisitions</li>
-                <li>Conformité réglementaire</li>
+                    <li>Droit bancaire</li>
+                    <li>Droit des assurances privées</li>
+                    <li>Mécanismes des financements innovants.</li>
                 </ul>
             </div>
 
-            <!-- Card: Ressources naturelles -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Droit et gouvernance des ressources naturelles</h2>
-                <p class="text-sm text-gray-400">
-                Expertise en régulation et exploitation durable des ressources naturelles.
-                </p>
+            <div id="immigration" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-indigo-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-indigo-500/20 p-3 rounded-lg">
+                        <i class="fas fa-globe text-indigo-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Immigration</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Assistance complète en droit de l'immigration.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Exploitation minière</li>
-                <li>Droits fonciers</li>
-                <li>Projets environnementaux</li>
+                    <li>Droit de l’immigration</li>
+                    <li>Négociation des accords-cadres avec le Gouvernement congolais</li>
                 </ul>
             </div>
 
-            <!-- Card: Protection du patrimoine -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Protection du patrimoine</h2>
-                <p class="text-sm text-gray-400">
-                Protégez vos biens et héritages grâce à une gestion juridique experte.
-                </p>
+            <div id="famille" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-pink-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-pink-500/20 p-3 rounded-lg">
+                        <i class="fas fa-home text-pink-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Droit de la famille et des personnes</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Accompagnement dans toutes les affaires familiales.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Planification successorale</li>
-                <li>Gestion de biens</li>
-                <li>Litiges sur les héritages</li>
+                    <li>Obtention d’actes d’état civil ou de jugements supplétifs en cas de déclaration tardive des actes d’état civil </li>
+                    <li>Vérification de l’authenticité des actes de l’état civil et des décisions judiciaires auprès des autorités nationales compétentes à la demande des chancelleries étrangères</li>
                 </ul>
             </div>
 
-            <!-- Card: Finance, banque et assurances -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Finance, banque et assurances</h2>
-                <p class="text-sm text-gray-400">
-                Assistance juridique dans les secteurs financiers et bancaires.
-                </p>
+            <div id="emploi" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-orange-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-orange-500/20 p-3 rounded-lg">
+                        <i class="fas fa-users text-orange-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Emploi et protection sociale</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Expertise en droit du travail et protection sociale.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Régulation bancaire</li>
-                <li>Conformité aux normes</li>
-                <li>Gestion des assurances</li>
+                    <li>Droit du travail et de la sécurité sociale</li>
+                    <li>Gestion juridique du personnel</li>
                 </ul>
             </div>
 
-            <!-- Card: Immigration et coopération internationale -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Immigration et coopération internationale</h2>
-                <p class="text-sm text-gray-400">
-                Conseils et assistance dans les domaines de l'immigration et des partenariats internationaux.
-                </p>
+            <div id="fisccalite" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-teal-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-teal-500/20 p-3 rounded-lg">
+                        <i class="fas fa-calculator text-teal-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Fiscalité</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Conseil en optimisation fiscale et contentieux.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Visas et permis</li>
-                <li>Accords internationaux</li>
-                <li>Statut de réfugié</li>
+                    <li> Droit fiscal et parafiscal</li>
+                    <li> Droit douanier</li>
                 </ul>
             </div>
 
-            <!-- Card: Droits humains et libertés fondamentales -->
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:bg-gray-700 transition duration-300">
-                <h2 class="text-xl font-bold mb-2">Droits humains et libertés fondamentales</h2>
-                <p class="text-sm text-gray-400">
-                Défense des droits fondamentaux et libertés individuelles.
-                </p>
+            <div id="humains" class="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-rose-400 h-full">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-rose-500/20 p-3 rounded-lg">
+                        <i class="fas fa-hand-holding-heart text-rose-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Droits humains</h3>
+                </div>
+                <p class="text-gray-300 text-sm">Protection des droits et libertés fondamentales.</p>
                 <ul class="list-disc pl-5 text-sm mt-4 text-gray-300">
-                <li>Droits civiques</li>
-                <li>Protection contre les discriminations</li>
-                <li>Accès à la justice</li>
+                    <li> Droit de la presse</li>
+                    <li> Droits de la femme et de l’enfant</li>
+                    <li> Protection des données personnelles</li>
+                    <li> Protection des consommateurs</li>
+
                 </ul>
             </div>
-            </div>
+        </div>
+    </div>
 
-    </section>
+
+</section>
+
+
 
 <?php require_once("entetes/footer.php"); ?>

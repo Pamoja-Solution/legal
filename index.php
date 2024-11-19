@@ -425,26 +425,9 @@ function carousel(intervalTime) {
 
             <!-- Grille des membres -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-                <!-- Membre 1 -->
-                <div class="group float-animation">
-                    <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105">
-                        <div class="h-72 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-                            <div class="w-32 h-32 bg-gray-300 rounded-full"></div>
-                        </div>
-                        <div class="p-6 bg-white">
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Prof. Yves-Junior Manzanza</h3>
-                            <p class="text-blue-600 font-medium mb-2">Associé co-fondateur & Gérant</p>
-                            <p class="text-gray-600 text-sm mb-4">Docteur en droit du travail | Expert en droit des affaires</p>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">Droit des affaires</span>
-                                <span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full">Droit du travail</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Membre 2 -->
-                <div class="group float-animation">
+            <!-- Membre 2 -->
+            <div class="group float-animation">
                     <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105">
                         <div class="h-72 bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
                             <div class="w-32 h-32 bg-gray-300 rounded-full"></div>
@@ -460,6 +443,27 @@ function carousel(intervalTime) {
                         </div>
                     </div>
                 </div>
+                <!-- Membre 1 -->
+                <div class="group float-animation">
+                    <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105">
+                        <div class="h-72 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
+                            <div class="w-full h-full bg-gray-300 rounded-full">
+                                <img src="/assets/img/gallery/yan 7.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="p-6 bg-white">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Prof. Yves-Junior Manzanza</h3>
+                            <p class="text-blue-600 font-medium mb-2">Associé co-fondateur & Gérant</p>
+                            <p class="text-gray-600 text-sm mb-4">Docteur en droit du travail | Expert en droit des affaires</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">Droit des affaires</span>
+                                <span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full">Droit du travail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
 
             <!-- Bouton Voir plus -->
@@ -928,6 +932,15 @@ function carousel(intervalTime) {
             <div class="swiper-button-next text-white"></div>
             <div class="swiper-button-prev text-white"></div>
         </div>
+
+        <div class="text-center mt-3">
+                <a href="/equipes.php" class="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold transform transition duration-500 hover:scale-105 hover:shadow-lg">
+                    <span>Découvrir toute l'équipe</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
     </div>
 
 
