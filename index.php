@@ -455,7 +455,7 @@ function carousel(intervalTime) {
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Prof. Yves-Junior Manzanza</h3>
                             <p class="text-blue-600 font-medium mb-2">Associé co-fondateur & Gérant</p>
                             <p class="text-gray-600 text-sm mb-4">Docteur en droit du travail | Expert en droit des affaires</p>
-                            <div class="flex flex-wrap gap-2">
+                            <div class="flex flex-wrap gap-2 bg-gray-300">
                                 <span class="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">Droit des affaires</span>
                                 <span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full">Droit du travail</span>
                             </div>
