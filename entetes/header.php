@@ -60,7 +60,7 @@ body {
     </style>
 </head>
 <body>
-    <nav class="nav-gradient fixed w-full top-0 z-50 shadow-lg mb-8">
+    <nav class="bg-gradient-to-r from-blue-600 to-purple-600 fixed w-full top-0 z-50 shadow-lg mb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
