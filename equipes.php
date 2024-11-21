@@ -80,7 +80,7 @@
 
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/yan 7.jpg" 
+                            <img src="assets/img/gallery/ha.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -160,29 +160,31 @@
              <div class="flex flex-col md:flex-row items-center gap-8 bg-gray-700 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div class="md:w-2/3 space-y-4">
                     <h3 class="text-2xl font-bold text-gray-300">
-                    Jean-Paul Kiala Mutiara                    </h3>
+                    Joël Kasanga Langwana                   </h3>
                     <p class="text-blue-600 font-semibold">
-                    Avocat
+                    Collaborateur scientifique
                                     </p>
                     <div class="prose text-gray-200">
                         <p class="mb-4">
-                        Diplômé agrégé en droit de l’Université Catholique du Congo, assistant à la Faculté de droit de la même université et avocat au Barreau de Kinshasa/Matete, Me Jean-Paul est très engagé dans le domaine social des entreprises d’une part et la représentation judiciaire de l’autre.                         </p>
+                        Licencié (Bac+5) en droit économique et social de l’Université de Kikwit (2017), titulaire d’un Master en sciences humaines et sociales de l’Université de Strasbourg (2024) et détenteur de plusieurs certifications spécialisées, notamment en droit des étrangers (Nancy, 2023), en droit des transports et de la logistique (Lyon, 2022), ainsi qu’en droit des assurances, axée sur la maîtrise de la relation client et la gestion du patrimoine (Strasbourg, 2021). 
                         <p class="mb-4">
-                        Il se déploie ainsi dans le conseil des entreprises quant à leur conformité à la législation congolaise et la défense de leurs intérêts en cas de contentieux. Avec un sens élevé de responsabilité et un enthousiasme avéré, Me Jean-Paul se met aux services de nos différents clients avec tact et savoir-faire.                        </p>
-                       
+                        Ce riche parcours lui a permis d'acquérir une expertise solide dans des domaines variés, ce qui témoigne de son engagement à diversifier ses compétences pour répondre aux besoins d’un monde juridique et économique en constante évolution.
+                        
+                        <p class="mb-4">
+                        Avant d’intégrer l’équipe d’Aequitas Legal Partners, il a travaillé comme agent temporaire au département de gestion des sinistres chez Allianz (Strasbourg, France) et comme chargé de cours à l’Université de Kikwit.
                         <div class="mt-6">
                             <h4 class="font-semibold text-gray-100 mb-2">Domaines de compétences :</h4>
-                            <p>Droit des affaires, droit pénal, droit fiscal et droit international privé, droit des marchés publics, droit judiciaire.</p>
+                            <p> Droits des affaires, droit de la navigation (maritime, fluviale et lacustre), droit des transports et de la logistique et droits des étrangers (droit de l’établissement).</p>
                         </div>
                         <div class="mt-6">
                             <h4 class="font-semibold text-gray-100 mb-2">Contact :</h4>
-                            <p>Tél. : +243827990604</p>
-                            <p>Courriel : jean-paul.kiala@aequilex-partners.com ; jeanpaulkiala4@gmail.com </p>
+                            <p>Tél. : +243 810 508 982, +33 6 12 87 52 38</p>
+                            <p>Courriel : joel.kasanga@aequilex-partners.com ; jkasangalangwana@gmail.com </p>
                         </div>
                     </div>
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/Homepage_testi.png" 
+                            <img src="assets/img/gallery/yan 7.jpg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
