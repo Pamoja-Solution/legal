@@ -123,38 +123,7 @@
                 </div>
             </div>
 
-             <!-- Avocat 4 - Image à gauche (exemple inversé) -->
-             <div class="flex flex-col md:flex-row-reverse items-center gap-8 bg-gray-700 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div class="md:w-2/3 space-y-4">
-                    <h3 class="text-2xl font-bold text-gray-300">
-                    Hervé Matende Mwatha
-                    </h3>
-                    <p class="text-blue-600 font-semibold">
-                        Avocat
-                    </p>
-                    <div class="prose text-gray-200">
-                        <p class="mb-4" >
-                        Licencié (Bac+5) en droit économique et social de l’université de Kikwit (2017), avocat au Barreau du Kwilu, Me Hervé Matende Mwatha a acquis une expérience pertinente dans l’accompagnement des clients à la création des sociétés commerciales et dans la conception des stratégies juridiques relatives au règlement des contentieux en matière civile et commerciale.
-                        </p>                        
-                        <p class="mb-4" >Les compétences développées en matière judiciaire lui permettent d’assister et/ou de représenter efficacement les clients devant les cours et tribunaux. </p>
-                        <div class="mt-6">
-                            <h4 class="font-semibold text-gray-100 mb-2">Domaines de compétences :</h4>
-                            <p>Droit des affaires, droit fiscal, droit de l’environnement et gouvernance des ressources naturelles, droit procédural, sous-traitance dans le secteur privé, recouvrement des créances.</p>
-                        </div>
-                        <div class="mt-6">
-                            <h4 class="font-semibold text-gray-100 mb-2">Contact :</h4>
-                            <p>Tél. : +243829527431</p>
-                            <p>Courriel : herve.matende@aequilex-partners.com, matendeherve5@gmail.com</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/home_blog1.png" 
-                                alt="Photo de profil" 
-                                class="w-full h-full object-cover">
-                </div>
-            </div>
+             
 
              <!-- Avocat 5 - Image à droite -->
              <div class="flex flex-col md:flex-row items-center gap-8 bg-gray-700 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -185,6 +154,39 @@
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
                             <img src="assets/img/gallery/yan 7.jpg" 
+                                alt="Photo de profil" 
+                                class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <!-- Avocat 4 - Image à gauche (exemple inversé) -->
+            <div class="flex flex-col md:flex-row-reverse items-center gap-8 bg-gray-700 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="md:w-2/3 space-y-4">
+                    <h3 class="text-2xl font-bold text-gray-300">
+                    Jean-Paul Kiala Mutiara
+                    </h3>
+                    <p class="text-blue-600 font-semibold">
+                        Avocat
+                    </p>
+                    <div class="prose text-gray-200">
+                        <p class="mb-4" >
+                        Diplômé agrégé en droit de l’Université Catholique du Congo, assistant à la Faculté de droit de la même université et avocat au Barreau de Kinshasa/Matete, Me Jean-Paul est très engagé dans le domaine social des entreprises d’une part et la représentation judiciaire de l’autre. Il se déploie ainsi dans le conseil des entreprises quant à leur conformité à la législation congolaise et la défense de leurs intérêts en cas de contentieux. Avec un sens élevé de responsabilité et un enthousiasme avéré, Me Jean-Paul se met aux services de nos différents clients avec tact et savoir-faire. 
+                    </p>                        
+     
+                        <div class="mt-6">
+                            <h4 class="font-semibold text-gray-100 mb-2">Domaines de compétences :</h4>
+                            <p>Droit des affaires, droit pénal, droit fiscal et droit international privé, droit des marchés publics, droit judiciaire. </p>
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="font-semibold text-gray-100 mb-2">Contact :</h4>
+                            <p>Tél. : ++243827990604</p>
+                            <p>Courriel : jean-paul.kiala@aequilex-partners.com ; jeanpaulkiala4@gmail.com </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="md:w-1/3 rounded-full overflow-hidden">
+                            <img src="assets/img/gallery/home_blog1.png" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
