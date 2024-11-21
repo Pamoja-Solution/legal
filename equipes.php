@@ -23,14 +23,16 @@
             <div class="flex flex-col md:flex-row items-center gap-8 bg-gray-700 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div class="md:w-2/3 space-y-4">
                     <h3 class="text-2xl font-bold text-gray-300">
-                        Prof. Yves-Junior Manzanza Lumingu
+                    Joël Kasanga Langwana
+
                     </h3>
                     <p class="text-blue-600 font-semibold">
-                        Associé co-fondateur & Gérant
+                    Collaborateur scientifique
                     </p>
                     <div class="prose text-gray-200">
                         <p class="mb-4">
                             Docteur en droit du travail de l'Université de Würzburg en Allemagne (2017), diplômé d'études supérieures en droit économique et social de l'Université de Kinshasa (2012), titulaire d'un Master en droit européen (LL.M.-Eur.) de l'Université de Würzburg (2013).
+                        
                         </p>
                         <p class="mb-4">
                             Alliant son expérience d'enseignant et de chercheur en droit avec son esprit d'entrepreneuriat socialement responsable et ses compétences interculturelles, Me Yves-Junior Manzanza Lumingu accompagne les entreprises, notamment étrangères, dans leur processus d'installation ou dans la représentation de leurs produits en République Démocratique du Congo.
