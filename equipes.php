@@ -82,7 +82,7 @@
 
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/ha.jpeg" 
+                            <img src="assets/img/gallery/femmebrune.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/ha.jpeg" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/yan 7.jpg" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -188,7 +188,7 @@
 
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/home_blog1.png" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -219,7 +219,7 @@
 
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/services1.png" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -257,7 +257,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/services2.png" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -287,7 +287,7 @@
 
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/services3.png" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -318,7 +318,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/services4.png" 
+                            <img src="assets/img/gallery/femmebrune.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -349,7 +349,7 @@
 
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/team1.png" 
+                            <img src="assets/img/gallery/femmebrune.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -383,7 +383,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/team2.png" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -414,7 +414,7 @@
 
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/team3.png" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
@@ -446,7 +446,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/3 rounded-full overflow-hidden">
-                            <img src="assets/img/gallery/team3.png" 
+                            <img src="assets/img/gallery/homme.jpeg" 
                                 alt="Photo de profil" 
                                 class="w-full h-full object-cover">
                 </div>
