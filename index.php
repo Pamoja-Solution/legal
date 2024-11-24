@@ -385,6 +385,83 @@ function carousel(intervalTime) {
 
 
 
+<section class="py-12 bg-gray-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- En-tête de la section -->
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-teal-600">
+                Actualités
+            </h2>
+            <p class="text-gray-300 leading-relaxed">
+                Découvrez les dernières nouveautés et informations importantes sur notre plateforme.
+            </p>
+        </div>
+
+        <!-- Conteneur Swiper -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="relative bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <img src="/assets/img/gallery/mako1.png" alt="Actualité 1" style="height: 20rem;" class="w-full object-cover">
+
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Le Procès de l'Afrique</h3>
+                            <p class="text-gray-400 mb-4">Les procès fictifs constituent une excellente occasion pour nos avocats de pratiquer l'art oratoire et de contribuer à la promotion de notre noble profession. C'est dans cette optique que Me Jean-Jacques Madianga Nkwekial d'Aequitas Legal Partners participera au "Procès de l'Afrique" lors de la prochaine édition Makutano à Kinshasa.
+                            <a href="/actualite/1" class="text-green-400 font-semibold inline-flex items-center">
+                                Lire plus
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="relative bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <img src="/assets/img/gallery/mako2.png" alt="Actualité 1" style="height: 20rem;" class="w-full object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Remise des prix</h3>
+                            <p class="text-gray-400 mb-4">Notre Cabinet est honoré par le Prix d'Excellence Christophe Guillaume KOCH attribué par le Chapitre Saint Thomas (Strasbourg/France) à Me Jean-Jacques Madianga pour sa thèse de doctorat en droit soutenue en janvier 2023 à l'université de Strasbourg. Les différents prix du Chapitre Saint Thomas "ont pour vocation de récompenser des travaux universitaires de qualité en lien avec les principes humanistes et la vie de la cité" (pour plus de détails voir le site de l'organisation).
+                            <a href="https://www.chapitre-saint-thomas.org/" class="text-green-400 font-semibold inline-flex items-center">
+                                Lire plus
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="relative bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+                    <img src="/assets/img/gallery/sbs.png" alt="Actualité 1" style="height: 20rem;" class="w-full object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Nouveau partenariat</h3>
+                            <p class="text-gray-400 mb-4">Nous sommes ravis d'annoncer notre partenariat avec une grande organisation.</p>
+                            <a href="/actualite/3" class="text-green-400 font-semibold inline-flex items-center">
+                                Lire plus
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flèches de navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -443,15 +520,24 @@ function carousel(intervalTime) {
                         </div>
                     </div>
                 </div>
+                
                 <!-- Membre 1 -->
                 <div class="group float-animation">
                     <div class="relative overflow-hidden rounded-2xl shadow-lg transform transition duration-500 hover:scale-105 bg-transparent">
+                        <!-- Image section -->
                         <div class="h-72 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-                            <div class="w-full h-full bg-gray-300 rounded-full "  >
-                                <img src="/assets/img/gallery/yan 7.jpg" alt="">
+                            <div class="w-full h-full bg-gray-300 rounded-full overflow-hidden">
+                                <!-- Correction de l'affichage de l'image -->
+                                <img 
+                                    src="/assets/img/gallery/yan 2.jpg" 
+                                    alt="Prof. Yves-Junior Manzanza" 
+                                    class="object-cover object-top w-full h-full"
+                                >
                             </div>
                         </div>
-                        <div class="p-6 bg-gray-300" >
+                        
+                        <!-- Texte section -->
+                        <div class="p-6 bg-gray-300">
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Prof. Yves-Junior Manzanza</h3>
                             <p class="text-blue-900 font-medium mb-2">Associé co-fondateur & Gérant</p>
                             <p class="text-gray-900 text-sm mb-4">Docteur en droit du travail | Expert en droit des affaires</p>
@@ -462,6 +548,7 @@ function carousel(intervalTime) {
                         </div>
                     </div>
                 </div>
+
 
                 
             </div>
@@ -477,6 +564,35 @@ function carousel(intervalTime) {
             </div>
         </div>
     </section>
+
+
+
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper('.swiper', {
+            loop: true, // Recommence après la dernière diapositive
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000, // Change tous les 5 secondes
+                disableOnInteraction: false, // Continue même après interaction
+            },
+        });
+    });
+</script>
+
+
+
+    
+
 
     <div class="h-3 bg-blue-500 my-6"></div>
 
@@ -641,7 +757,7 @@ function carousel(intervalTime) {
                         <!-- Expert 1 -->
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/homme.jpeg" alt="Prof. Yves-Junior Manzanza Lumingu" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/yan 2.jpg" alt="Prof. Yves-Junior Manzanza Lumingu" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Prof. Yves-Junior Manzanza Lumingu</h3>
