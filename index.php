@@ -641,7 +641,7 @@ function carousel(intervalTime) {
                         <!-- Expert 1 -->
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/yan 11.jpg" alt="Prof. Yves-Junior Manzanza Lumingu" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/homme.jpeg" alt="Prof. Yves-Junior Manzanza Lumingu" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Prof. Yves-Junior Manzanza Lumingu</h3>
@@ -663,7 +663,7 @@ function carousel(intervalTime) {
 
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/yan 7.jpg" alt="Mimie-Aimée Manzanza Malu" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/femme.jpeg" alt="Mimie-Aimée Manzanza Malu" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Mimie-Aimée Manzanza Malu</h3>
@@ -685,7 +685,7 @@ function carousel(intervalTime) {
 
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/ha.jpeg" alt="Ignace Tchenga Kalisi" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/homme.jpeg" alt="Ignace Tchenga Kalisi" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Ignace Tchenga Kalisi</h3>
@@ -706,7 +706,7 @@ function carousel(intervalTime) {
 
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/home_blog1.png" alt="Hervé Matende Mwatha" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/homme.jpeg" alt="Hervé Matende Mwatha" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Hervé Matende Mwatha</h3>
@@ -739,7 +739,7 @@ function carousel(intervalTime) {
                         <!-- Expert 1 -->
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/Homepage_testi.png" alt="Jean-Paul Kiala Mutiara" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/homme.jpeg" alt="Jean-Paul Kiala Mutiara" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Jean-Paul Kiala Mutiara</h3>
@@ -761,7 +761,7 @@ function carousel(intervalTime) {
 
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/services1.png" alt="Hervé Ngulu Boka" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/homme.jpeg" alt="Hervé Ngulu Boka" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Hervé Ngulu Boka</h3>
@@ -783,7 +783,7 @@ function carousel(intervalTime) {
 
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/jo.png" alt="Dieu-Merci Ngusu Masuta" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/homme.jpeg" alt="Dieu-Merci Ngusu Masuta" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Dieu-Merci Ngusu Masuta  </h3>
@@ -804,7 +804,7 @@ function carousel(intervalTime) {
 
                         <div class="expert-card rounded-xl p-4 text-white transition-all duration-300 hover:transform hover:scale-105">
                             <div class="relative mb-4">
-                                <img src="assets/img/gallery/mako1.png" alt="Steve Mbedi Elia" class="w-full h-64 object-cover rounded-lg">
+                                <img src="assets/img/gallery/homme.jpeg" alt="Steve Mbedi Elia" class="w-full h-64 object-cover rounded-lg">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg"></div>
                             </div>
                             <h3 class="text-xl font-bold mb-2">Steve Mbedi Elia</h3>
